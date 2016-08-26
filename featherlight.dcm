@@ -1,0 +1,24 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHCT1G125
+D Tri-State Gate Buffer
+$ENDCMP
+#
+$CMP AP2112
+D 600mA low dropout linear regulator, shutdown pin, 3.3V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP2112.pdf
+$ENDCMP
+#
+$CMP BNO055
+D AT90S4433, TQFP32, 2k Flash, 128B SRAM, 256B EEPROM
+K AVR 8bit Microcontroller ClassicAVR
+F http://www.atmel.com/Images/doc1042.pdf
+$ENDCMP
+#
+$CMP TVS_Array
+D Transient voltage suppressor diode array (bi-directional)
+K TVS TRANSIENT SUPPROESSOR ESD ARRAY
+$ENDCMP
+#
+#End Doc Library
