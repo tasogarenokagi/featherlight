@@ -21,6 +21,12 @@ D Single Cell lithium ion/lithium polymer charge controller
 K battery charge lipoly liion PMIC
 $ENDCMP
 #
+$CMP SAMD21E18A-M
+D QFN32, 16K Flash, 2K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
 $CMP SAMD21G18
 D TQFP48, 16K Flash, 2K RAM, 48MHz, CortexM0+
 K ARM 32bit Microcontroller 48MHz CortexM0+
