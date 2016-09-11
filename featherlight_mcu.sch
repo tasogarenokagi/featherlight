@@ -856,8 +856,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 5050 5350 5050
 Wire Wire Line
-	5350 5150 5250 5150
-Wire Wire Line
 	3350 5400 3350 5600
 Wire Wire Line
 	3450 5400 3450 5500
@@ -1045,13 +1043,21 @@ $EndComp
 NoConn ~ 5250 2850
 NoConn ~ 5250 2950
 NoConn ~ 5250 3050
-NoConn ~ 5250 3150
 NoConn ~ 5250 3250
 NoConn ~ 5250 4950
 NoConn ~ 5250 4850
 NoConn ~ 5250 4450
 NoConn ~ 5250 4350
-NoConn ~ 5250 4250
 NoConn ~ 5250 4150
 NoConn ~ 5250 3750
+Wire Wire Line
+	5350 5150 5250 5150
+Wire Wire Line
+	5250 3150 5550 3150
+Text GLabel 5550 3150 2    60   Input ~ 0
+VDD_MON
+Text GLabel 5550 4250 2    60   Input ~ 0
+CHARGE_STATUS
+Wire Wire Line
+	5550 4250 5250 4250
 $EndSCHEMATC
