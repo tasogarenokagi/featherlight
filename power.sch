@@ -49,8 +49,21 @@ $EndDescr
 $Comp
 L CONN_01X01 P3
 U 1 1 57D4589A
+P 4350 5850
+F 0 "P3" H 4428 5891 50  0000 L CNN
+F 1 "CONN_01X01" H 4428 5800 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 5850 50  0001 C CNN
+F 3 "" H 4350 5850 50  0000 C CNN
+F 4 "?" H 4350 5850 60  0001 C CNN "Part No"
+F 5 "?" H 4350 5850 60  0001 C CNN "Mftr"
+	1    4350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P4
+U 1 1 57D45A8B
 P 4350 6100
-F 0 "P3" H 4428 6141 50  0000 L CNN
+F 0 "P4" H 4428 6141 50  0000 L CNN
 F 1 "CONN_01X01" H 4428 6050 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 6100 50  0001 C CNN
 F 3 "" H 4350 6100 50  0000 C CNN
@@ -60,37 +73,28 @@ F 5 "?" H 4350 6100 60  0001 C CNN "Mftr"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P4
-U 1 1 57D45A8B
-P 4350 6350
-F 0 "P4" H 4428 6391 50  0000 L CNN
-F 1 "CONN_01X01" H 4428 6300 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 6350 50  0001 C CNN
-F 3 "" H 4350 6350 50  0000 C CNN
-F 4 "?" H 4350 6350 60  0001 C CNN "Part No"
-F 5 "?" H 4350 6350 60  0001 C CNN "Mftr"
-	1    4350 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 P5
+L CONN_01X01 P6
 U 1 1 57D45B39
 P 4350 6600
-F 0 "P5" H 4428 6641 50  0000 L CNN
+F 0 "P6" H 4428 6641 50  0000 L CNN
 F 1 "CONN_01X01" H 4428 6550 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 6600 50  0001 C CNN
 F 3 "" H 4350 6600 50  0000 C CNN
+F 4 "?" H 4350 6600 60  0001 C CNN "Part No"
+F 5 "?" H 4350 6600 60  0001 C CNN "Mftr"
 	1    4350 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P6
+L CONN_01X01 P7
 U 1 1 57D45B3F
 P 4350 6850
-F 0 "P6" H 4428 6891 50  0000 L CNN
+F 0 "P7" H 4428 6891 50  0000 L CNN
 F 1 "CONN_01X01" H 4428 6800 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 6850 50  0001 C CNN
 F 3 "" H 4350 6850 50  0000 C CNN
+F 4 "?" H 4350 6850 60  0001 C CNN "Part No"
+F 5 "?" H 4350 6850 60  0001 C CNN "Mftr"
 	1    4350 6850
 	1    0    0    -1  
 $EndComp
@@ -121,12 +125,12 @@ Wire Wire Line
 Wire Wire Line
 	3950 6600 4150 6600
 Wire Wire Line
-	4150 6350 3950 6350
+	4150 6100 3950 6100
 Wire Wire Line
-	3950 6100 4150 6100
-Text GLabel 3950 6100 0    60   Output ~ 0
+	3950 5850 4150 5850
+Text GLabel 3950 5850 0    60   Output ~ 0
 SWCLK
-Text GLabel 3950 6350 0    60   BiDi ~ 0
+Text GLabel 3950 6100 0    60   BiDi ~ 0
 SWDIO
 $Comp
 L USB_OTG P1
@@ -842,4 +846,19 @@ Connection ~ 1850 3750
 Text GLabel 1350 3950 0    60   Output ~ 0
 CHARGE_STATUS
 NoConn ~ 1750 1500
+$Comp
+L CONN_01X01 P5
+U 1 1 57D649B2
+P 4350 6350
+F 0 "P5" H 4428 6391 50  0000 L CNN
+F 1 "CONN_01X01" H 4428 6300 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 6350 50  0001 C CNN
+F 3 "" H 4350 6350 50  0000 C CNN
+	1    4350 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 6350 3950 6350
+Text GLabel 3950 6350 0    60   Output ~ 0
+~RST~
 $EndSCHEMATC
