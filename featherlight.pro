@@ -1,4 +1,4 @@
-update=Tue 16 Aug 2016 12:54:15 PM EDT
+update=Sun 11 Sep 2016 01:27:51 AM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=/home/matthew/src/electronics/kicad/adafruit
 LibName31=featherlight
+LibName32=/home/matthew/src/electronics/kicad/fiducial

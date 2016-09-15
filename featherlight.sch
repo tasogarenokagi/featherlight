@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:adafruit
 LIBS:featherlight
+LIBS:fiducial
 LIBS:featherlight-cache
 EELAYER 25 0
 EELAYER END
@@ -63,4 +64,70 @@ U 57B369AA
 F0 "Power Regulation & Distribution" 60
 F1 "power.sch" 60
 $EndSheet
+$Comp
+L Fiducial FID1
+U 1 1 57D53845
+P 7000 4050
+F 0 "FID1" H 7228 4050 60  0000 L CNN
+F 1 "Fiducial" H 7228 3997 60  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7000 4050 60  0001 C CNN
+F 3 "" H 7000 4050 60  0000 C CNN
+	1    7000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID2
+U 1 1 57D538E4
+P 7750 4050
+F 0 "FID2" H 7978 4050 60  0000 L CNN
+F 1 "Fiducial" H 7978 3997 60  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7750 4050 60  0001 C CNN
+F 3 "" H 7750 4050 60  0000 C CNN
+	1    7750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID3
+U 1 1 57D53914
+P 8500 4050
+F 0 "FID3" H 8728 4050 60  0000 L CNN
+F 1 "Fiducial" H 8728 3997 60  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 8500 4050 60  0001 C CNN
+F 3 "" H 8500 4050 60  0000 C CNN
+	1    8500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID4
+U 1 1 57D53AA8
+P 7000 4550
+F 0 "FID4" H 7228 4550 60  0000 L CNN
+F 1 "Fiducial" H 7228 4497 60  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7000 4550 60  0001 C CNN
+F 3 "" H 7000 4550 60  0000 C CNN
+	1    7000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID5
+U 1 1 57D53AAE
+P 7750 4550
+F 0 "FID5" H 7978 4550 60  0000 L CNN
+F 1 "Fiducial" H 7978 4497 60  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7750 4550 60  0001 C CNN
+F 3 "" H 7750 4550 60  0000 C CNN
+	1    7750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID6
+U 1 1 57D53AB4
+P 8500 4550
+F 0 "FID6" H 8728 4550 60  0000 L CNN
+F 1 "Fiducial" H 8728 4497 60  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 8500 4550 60  0001 C CNN
+F 3 "" H 8500 4550 60  0000 C CNN
+	1    8500 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
