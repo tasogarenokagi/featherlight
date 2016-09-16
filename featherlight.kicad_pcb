@@ -1,11 +1,11 @@
-(kicad_pcb (version 20160815) (host pcbnew 4.1.0-alpha+201609130817+7147~55~ubuntu16.04.1-)
+(kicad_pcb (version 20160815) (host pcbnew 201609150817+7155~55~ubuntu16.04.1-)
 
   (general
     (links 257)
     (no_connects 4)
-    (area 77.054857 77.133619 126.066381 127.52404)
+    (area 61.544286 73.5 134.035716 132.285001)
     (thickness 1.6002)
-    (drawings 7)
+    (drawings 12)
     (tracks 968)
     (zones 0)
     (modules 105)
@@ -26,7 +26,7 @@
     (37 F.SilkS user hide)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
@@ -225,7 +225,7 @@
     (add_net VUSB)
   )
 
-  (module Connector-FFC:Panasonic_AYF530635 (layer B.Cu) (tedit 57D98598) (tstamp 57D98885)
+  (module Connector-FFC:Panasonic_AYF530635 (layer B.Cu) (tedit 57DB6658) (tstamp 57D98885)
     (at 87.5908 115.6092 135)
     (path /57B3695B/57D96CCA)
     (fp_text reference P8 (at 0 3.7 135) (layer B.SilkS) hide
@@ -256,7 +256,7 @@
       (net 1 GND))
   )
 
-  (module Connector-FFC:Panasonic_AYF530635 (layer B.Cu) (tedit 57D98598) (tstamp 57D9887A)
+  (module Connector-FFC:Panasonic_AYF530635 (layer B.Cu) (tedit 57DB6658) (tstamp 57D9887A)
     (at 83.296099 109.181724 112.5)
     (path /57B3695B/57D978D3)
     (fp_text reference P9 (at 0 3.7 112.5) (layer B.SilkS) hide
@@ -287,7 +287,7 @@
       (net 1 GND))
   )
 
-  (module Connector-FFC:Panasonic_AYF530635 (layer B.Cu) (tedit 57D98598) (tstamp 57D9886F)
+  (module Connector-FFC:Panasonic_AYF530635 (layer B.Cu) (tedit 57DB6658) (tstamp 57D9886F)
     (at 83.296099 94.018276 67.5)
     (path /57B3695B/57D97AB6)
     (fp_text reference P11 (at 0 3.7 67.5) (layer B.SilkS) hide
@@ -318,7 +318,7 @@
       (net 1 GND))
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D975BB)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D975BB)
     (at 112.305386 119.480281 292.5)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -347,7 +347,7 @@
     )
   )
 
-  (module Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled (layer B.Cu) (tedit 57D98598) (tstamp 57D58184)
+  (module Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled (layer B.Cu) (tedit 57DB6658) (tstamp 57D58184)
     (at 114.3 114.046 225)
     (descr http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)
     (tags "connector jst ph")
@@ -395,7 +395,7 @@
     (pad "" smd rect (at 3.4 -2.775 225) (size 1.6 3.4) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D97520)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D97520)
     (at 83.719719 112.305386 202.5)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -424,7 +424,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46F34)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46F34)
     (at 119.903901 109.181724 157.5)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -464,7 +464,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46FE8)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46FE8)
     (at 81.788 101.6)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -504,7 +504,7 @@
     )
   )
 
-  (module Connectors_JST:JST_SUR_SM06B-SURS-TF_06x0.80mm_Angled (layer B.Cu) (tedit 57D98598) (tstamp 57D971CF)
+  (module Connectors_JST:JST_SUR_SM06B-SURS-TF_06x0.80mm_Angled (layer B.Cu) (tedit 57DB6658) (tstamp 57D971CF)
     (at 109.376127 82.826768 337.5)
     (descr "JST SUR series connector, SM06B-SURS-TF, side entry, 0.80mm pitch")
     (tags "connector jst SUR SMT side horizontal entry 0.80mm pitch")
@@ -552,7 +552,7 @@
     )
   )
 
-  (module Connectors_JST:JST_SUR_SM06B-SURS-TF_06x0.80mm_Angled (layer B.Cu) (tedit 57D98598) (tstamp 57D971B4)
+  (module Connectors_JST:JST_SUR_SM06B-SURS-TF_06x0.80mm_Angled (layer B.Cu) (tedit 57DB6658) (tstamp 57D971B4)
     (at 87.23159 87.23159 45)
     (descr "JST SUR series connector, SM06B-SURS-TF, side entry, 0.80mm pitch")
     (tags "connector jst SUR SMT side horizontal entry 0.80mm pitch")
@@ -600,7 +600,7 @@
     )
   )
 
-  (module Connectors_JST:JST_SUR_SM06B-SURS-TF_06x0.80mm_Angled (layer B.Cu) (tedit 57D98598) (tstamp 57D97199)
+  (module Connectors_JST:JST_SUR_SM06B-SURS-TF_06x0.80mm_Angled (layer B.Cu) (tedit 57DB6658) (tstamp 57D97199)
     (at 93.823873 82.826768 22.5)
     (descr "JST SUR series connector, SM06B-SURS-TF, side entry, 0.80mm pitch")
     (tags "connector jst SUR SMT side horizontal entry 0.80mm pitch")
@@ -648,7 +648,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46FC0)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46FC0)
     (at 87.5908 87.5908 315)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -688,7 +688,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46F70)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46F70)
     (at 115.6092 87.5908 225)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -728,7 +728,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46F84)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46F84)
     (at 109.181724 83.296099 247.5)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -768,7 +768,7 @@
     )
   )
 
-  (module Connectors_JST:JST_SUR_SM06B-SURS-TF_06x0.80mm_Angled (layer B.Cu) (tedit 57D98598) (tstamp 57D96E4B)
+  (module Connectors_JST:JST_SUR_SM06B-SURS-TF_06x0.80mm_Angled (layer B.Cu) (tedit 57DB6658) (tstamp 57D96E4B)
     (at 101.6 81.28)
     (descr "JST SUR series connector, SM06B-SURS-TF, side entry, 0.80mm pitch")
     (tags "connector jst SUR SMT side horizontal entry 0.80mm pitch")
@@ -816,7 +816,7 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 57D98598) (tstamp 57D7901C)
+  (module Mounting_Holes:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 57DB6658) (tstamp 57D7901C)
     (at 86.614 98.552)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -831,7 +831,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 57D98598) (tstamp 57D78EA7)
+  (module Mounting_Holes:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 57DB6658) (tstamp 57D78EA7)
     (at 116.078 106.68)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -846,7 +846,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module LEDs:LED_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D47FEF)
+  (module LEDs:LED_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47FEF)
     (at 89.154 92.71 270)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -888,7 +888,7 @@
     )
   )
 
-  (module Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow (layer B.Cu) (tedit 57D98598) (tstamp 57D47DC8)
+  (module Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow (layer B.Cu) (tedit 57DB6658) (tstamp 57D47DC8)
     (at 93.472 94.234 90)
     (descr "Tantal Cap. , Size D, EIA-7343, Reflow")
     (tags "Tantal Capacitor Size-D EIA-7343 Reflow")
@@ -917,7 +917,7 @@
     )
   )
 
-  (module featherlight:KMR2_switch (layer F.Cu) (tedit 57D98598) (tstamp 57D4825A)
+  (module featherlight:KMR2_switch (layer F.Cu) (tedit 57DB6658) (tstamp 57D4825A)
     (at 106.426 92.964 180)
     (tags "tactile momentary switch")
     (path /57B36956/57BE381D)
@@ -945,7 +945,7 @@
     )
   )
 
-  (module Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm (layer F.Cu) (tedit 57D98598) (tstamp 57D4A1FF)
+  (module Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm (layer F.Cu) (tedit 57DB6658) (tstamp 57D4A1FF)
     (at 112.522 101.6 270)
     (descr "UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)")
     (tags "QFN 0.5")
@@ -1037,7 +1037,7 @@
     )
   )
 
-  (module featherlight:1812_PTC (layer F.Cu) (tedit 57D98598) (tstamp 57D48035)
+  (module featherlight:1812_PTC (layer F.Cu) (tedit 57DB6658) (tstamp 57D48035)
     (at 93.218 112.014 270)
     (path /57B369AA/57D58F27)
     (fp_text reference F1 (at 0 -3 270) (layer F.SilkS) hide
@@ -1059,7 +1059,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B4D5)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B4D5)
     (at 106.673417 81.38688 67.5)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1088,7 +1088,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B4CA)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B4CA)
     (at 114.022452 84.867025 45)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1117,7 +1117,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B4BF)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B4BF)
     (at 119.480281 90.894614 22.5)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1146,7 +1146,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B4B4)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B4B4)
     (at 122.216 98.552)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1175,7 +1175,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B4A9)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B4A9)
     (at 121.81312 106.673417 337.5)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1204,7 +1204,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B49E)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B49E)
     (at 118.332975 114.022452 315)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1233,7 +1233,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B47D)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B47D)
     (at 96.526583 121.81312 247.5)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1262,7 +1262,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B472)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B472)
     (at 89.177548 118.332975 225)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1291,7 +1291,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B45C)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B45C)
     (at 80.984 104.648 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1320,7 +1320,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B451)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B451)
     (at 81.38688 96.526583 157.5)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1349,7 +1349,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B446)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B446)
     (at 84.867025 89.177548 135)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1378,7 +1378,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B43B)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B43B)
     (at 90.894614 83.719719 112.5)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1407,7 +1407,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D47010)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47010)
     (at 87.5908 115.6092 45)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1447,7 +1447,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D47024)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47024)
     (at 94.018276 119.903901 67.5)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1487,7 +1487,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46F98)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46F98)
     (at 101.6 81.788 270)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1527,7 +1527,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4B070)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4B070)
     (at 98.552 80.984 90)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1556,7 +1556,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46FFC)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46FFC)
     (at 83.296099 109.181724 22.5)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1596,7 +1596,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46FD4)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46FD4)
     (at 83.296099 94.018276 337.5)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1636,7 +1636,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46FAC)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46FAC)
     (at 94.018276 83.296099 292.5)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1676,7 +1676,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46F5C)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46F5C)
     (at 119.903901 94.018276 202.5)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1716,7 +1716,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46F48)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46F48)
     (at 121.412 101.6 180)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1756,7 +1756,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46F20)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46F20)
     (at 115.6092 115.6092 135)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1796,7 +1796,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D46F0C)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D46F0C)
     (at 109.181724 119.903901 112.5)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1835,7 +1835,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D49F1D)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D49F1D)
     (at 101.346 117.094)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1864,7 +1864,7 @@
     )
   )
 
-  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57D98598) (tstamp 57D49E30)
+  (module Adafruit:LED_SK6812MINI-PLCC4 (layer F.Cu) (tedit 57DB6658) (tstamp 57D49E30)
     (at 101.6 121.412 90)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
@@ -1904,7 +1904,7 @@
     )
   )
 
-  (module Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow (layer B.Cu) (tedit 57D98598) (tstamp 57D47DBC)
+  (module Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow (layer B.Cu) (tedit 57DB6658) (tstamp 57D47DBC)
     (at 92.71 105.664 180)
     (descr "Tantal Cap. , Size D, EIA-7343, Reflow")
     (tags "Tantal Capacitor Size-D EIA-7343 Reflow")
@@ -1933,7 +1933,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D47DF8)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47DF8)
     (at 108.712 99.568 90)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1962,7 +1962,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D47E04)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47E04)
     (at 114.808 92.837 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1991,7 +1991,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D47E10)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47E10)
     (at 112.014 92.287 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -2020,7 +2020,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D47E28)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47E28)
     (at 96.52 100.965 90)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -2049,7 +2049,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D47E34)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47E34)
     (at 98.552 97.79)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -2078,7 +2078,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D47E40)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47E40)
     (at 101.6 91.44 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -2107,7 +2107,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D47E4C)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47E4C)
     (at 99.568 91.44 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -2136,7 +2136,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D47E58)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47E58)
     (at 100.85 105.156 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -2165,7 +2165,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D47E64)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47E64)
     (at 109.728 115.104 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -2194,7 +2194,7 @@
     )
   )
 
-  (module Housings_DFN_QFN:DFN-6-1EP_2x2mm_Pitch0.5mm (layer B.Cu) (tedit 57D98598) (tstamp 57D47FBD)
+  (module Housings_DFN_QFN:DFN-6-1EP_2x2mm_Pitch0.5mm (layer B.Cu) (tedit 57DB6658) (tstamp 57D47FBD)
     (at 97.536 112.014 180)
     (descr "DC6 Package; 6-Lead Plastic DFN (2mm x 2mm) (see Linear Technology DFN_6_05-08-1703.pdf)")
     (tags "DFN 0.5")
@@ -2232,7 +2232,7 @@
     )
   )
 
-  (module LEDs:LED_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D47FD6)
+  (module LEDs:LED_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D47FD6)
     (at 105.664 106.68)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -2274,7 +2274,7 @@
     )
   )
 
-  (module LEDs:LED_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D48008)
+  (module LEDs:LED_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D48008)
     (at 98.298 113.03 90)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -2316,7 +2316,7 @@
     )
   )
 
-  (module Housings_LGA:LGA-28 (layer F.Cu) (tedit 57D98598) (tstamp 57D48066)
+  (module Housings_LGA:LGA-28 (layer F.Cu) (tedit 57DB6658) (tstamp 57D48066)
     (at 101.6 101.6 180)
     (path /57B36956/57B60086)
     (attr smd)
@@ -2393,7 +2393,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D481D7)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D481D7)
     (at 105.664 115.824)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2422,7 +2422,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 57D98598) (tstamp 57D481E3)
+  (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 57DB6658) (tstamp 57D481E3)
     (at 86.868 104.394 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2451,7 +2451,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D481EF)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D481EF)
     (at 105.537 100.826 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2480,7 +2480,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D481FB)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D481FB)
     (at 107.188 103.378 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2509,7 +2509,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D48213)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D48213)
     (at 109.22 106.68)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2538,7 +2538,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D4821F)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4821F)
     (at 89.154 96.012 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2567,7 +2567,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D4822B)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4822B)
     (at 99.314 108.458 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2596,7 +2596,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 57D98598) (tstamp 57D48298)
+  (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 57DB6658) (tstamp 57D48298)
     (at 111.773704 112.134915 225)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
@@ -2634,7 +2634,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23-5 (layer B.Cu) (tedit 57D98598) (tstamp 57D482F9)
+  (module TO_SOT_Packages_SMD:SOT-23-5 (layer B.Cu) (tedit 57DB6658) (tstamp 57D482F9)
     (at 89.916 101.092 90)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
@@ -2671,7 +2671,7 @@
     )
   )
 
-  (module featherlight:Crystal_SMD_3215_2Pads (layer F.Cu) (tedit 57D98598) (tstamp 57D48315)
+  (module featherlight:Crystal_SMD_3215_2Pads (layer F.Cu) (tedit 57DB6658) (tstamp 57D48315)
     (at 113.157 94.996 180)
     (descr "Crystal, Quarz, SMD, 3215, 2 Pads,")
     (tags "Crystal Quarz SMD 3215 2 Pads")
@@ -2698,7 +2698,7 @@
     )
   )
 
-  (module featherlight:Crystal_SMD_3215_2Pads (layer F.Cu) (tedit 57D98598) (tstamp 57D4831F)
+  (module featherlight:Crystal_SMD_3215_2Pads (layer F.Cu) (tedit 57DB6658) (tstamp 57D4831F)
     (at 100.584 94.488 180)
     (descr "Crystal, Quarz, SMD, 3215, 2 Pads,")
     (tags "Crystal Quarz SMD 3215 2 Pads")
@@ -2725,7 +2725,7 @@
     )
   )
 
-  (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer B.Cu) (tedit 57D98598) (tstamp 57D4B75B)
+  (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer B.Cu) (tedit 57DB6658) (tstamp 57D4B75B)
     (at 110.744 94.234)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
@@ -2742,7 +2742,7 @@
       (net 14 SWCLK))
   )
 
-  (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer B.Cu) (tedit 57D98598) (tstamp 57D4B761)
+  (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer B.Cu) (tedit 57DB6658) (tstamp 57D4B761)
     (at 108.204 94.234)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
@@ -2759,7 +2759,7 @@
       (net 15 SWDIO))
   )
 
-  (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer B.Cu) (tedit 57D98598) (tstamp 57D4B767)
+  (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer B.Cu) (tedit 57DB6658) (tstamp 57D4B767)
     (at 105.664 94.234)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
@@ -2776,7 +2776,7 @@
       (net 39 ~RST~))
   )
 
-  (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer B.Cu) (tedit 57D98598) (tstamp 57D4B76D)
+  (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer B.Cu) (tedit 57DB6658) (tstamp 57D4B76D)
     (at 100.584 94.234)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
@@ -2793,7 +2793,7 @@
       (net 12 VDD))
   )
 
-  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D497AC)
+  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D497AC)
     (at 117.602 102.616 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
@@ -2822,7 +2822,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D497B8)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D497B8)
     (at 117.602 99.822 90)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -2851,7 +2851,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 57D98598) (tstamp 57D4C659)
+  (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 57DB6658) (tstamp 57D4C659)
     (at 107.442 97.028)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2880,7 +2880,7 @@
     )
   )
 
-  (module featherlight:KMR2_switch (layer F.Cu) (tedit 57D98598) (tstamp 57D4CD5C)
+  (module featherlight:KMR2_switch (layer F.Cu) (tedit 57DB6658) (tstamp 57D4CD5C)
     (at 93.218 94.742 270)
     (tags "tactile momentary switch")
     (path /57B36956/57CFAA80)
@@ -2908,7 +2908,7 @@
     )
   )
 
-  (module featherlight:KMR2_switch (layer F.Cu) (tedit 57D98598) (tstamp 57D4CD67)
+  (module featherlight:KMR2_switch (layer F.Cu) (tedit 57DB6658) (tstamp 57D4CD67)
     (at 104.394 87.592)
     (tags "tactile momentary switch")
     (path /57B36956/57CFAD66)
@@ -2936,7 +2936,7 @@
     )
   )
 
-  (module featherlight:KMR2_switch (layer F.Cu) (tedit 57D98598) (tstamp 57D4CD72)
+  (module featherlight:KMR2_switch (layer F.Cu) (tedit 57DB6658) (tstamp 57D4CD72)
     (at 92.71 105.664 180)
     (tags "tactile momentary switch")
     (path /57B36956/57CFAFD2)
@@ -2964,7 +2964,7 @@
     )
   )
 
-  (module featherlight:KMR2_switch (layer F.Cu) (tedit 57D98598) (tstamp 57D4CD7D)
+  (module featherlight:KMR2_switch (layer F.Cu) (tedit 57DB6658) (tstamp 57D4CD7D)
     (at 105.88 111.778 270)
     (tags "tactile momentary switch")
     (path /57B36956/57CFAFF4)
@@ -2992,7 +2992,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57D98598) (tstamp 57D4D40B)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4D40B)
     (at 107.95 95.504)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -3021,7 +3021,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D4D417)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4D417)
     (at 103.378 97.028)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3050,7 +3050,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D4D423)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D4D423)
     (at 107.442 97.028 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3079,7 +3079,7 @@
     )
   )
 
-  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 57D98598) (tstamp 57D4F024)
+  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 57DB6658) (tstamp 57D4F024)
     (at 89.027 84.328)
     (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
     (tags marker)
@@ -3096,7 +3096,7 @@
       (solder_mask_margin 0.77) (clearance 0.77))
   )
 
-  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 57D98598) (tstamp 57D4F02A)
+  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 57DB6658) (tstamp 57D4F02A)
     (at 112.776 83.312)
     (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
     (tags marker)
@@ -3113,7 +3113,7 @@
       (solder_mask_margin 0.77) (clearance 0.77))
   )
 
-  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 57D98598) (tstamp 57D4F030)
+  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 57DB6658) (tstamp 57D4F030)
     (at 90.424 119.761)
     (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
     (tags marker)
@@ -3130,7 +3130,7 @@
       (solder_mask_margin 0.77) (clearance 0.77))
   )
 
-  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer B.Cu) (tedit 57D98598) (tstamp 57D4F036)
+  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer B.Cu) (tedit 57DB6658) (tstamp 57D4F036)
     (at 93.472 94.234)
     (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
     (tags marker)
@@ -3147,7 +3147,7 @@
       (solder_mask_margin 0.77) (clearance 0.77))
   )
 
-  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer B.Cu) (tedit 57D98598) (tstamp 57D4F03C)
+  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer B.Cu) (tedit 57DB6658) (tstamp 57D4F03C)
     (at 93.472 117.348)
     (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
     (tags marker)
@@ -3164,7 +3164,7 @@
       (solder_mask_margin 0.77) (clearance 0.77))
   )
 
-  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer B.Cu) (tedit 57D98598) (tstamp 57D4F042)
+  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer B.Cu) (tedit 57DB6658) (tstamp 57D4F042)
     (at 118.364 94.234)
     (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
     (tags marker)
@@ -3181,7 +3181,7 @@
       (solder_mask_margin 0.77) (clearance 0.77))
   )
 
-  (module featherlight:USB_Micro-B (layer B.Cu) (tedit 57D98598) (tstamp 57D4F506)
+  (module featherlight:USB_Micro-B (layer B.Cu) (tedit 57DB6658) (tstamp 57D4F506)
     (at 101.5991 121.70454 180)
     (descr "Micro USB Type B Receptacle with circular plated through holes")
     (tags "USB USB_B USB_micro USB_OTG")
@@ -3221,7 +3221,7 @@
       (net 8 "Net-(P1-Pad6)"))
   )
 
-  (module LEDs:LED_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D58160)
+  (module LEDs:LED_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D58160)
     (at 106.426 121.158 292.5)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -3263,7 +3263,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 57D98598) (tstamp 57D58190)
+  (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 57DB6658) (tstamp 57D58190)
     (at 113.03 91.44)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3292,7 +3292,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 57D98598) (tstamp 57D5819C)
+  (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 57DB6658) (tstamp 57D5819C)
     (at 107.569 119.126 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3321,7 +3321,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57D98598) (tstamp 57D581A8)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 57DB6658) (tstamp 57D581A8)
     (at 110.998 88.15 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3350,7 +3350,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 57D98598) (tstamp 57D581B4)
+  (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 57DB6658) (tstamp 57D581B4)
     (at 102.87 108.712 45)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3379,7 +3379,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23-5 (layer B.Cu) (tedit 57D98598) (tstamp 57D581C6)
+  (module TO_SOT_Packages_SMD:SOT-23-5 (layer B.Cu) (tedit 57DB6658) (tstamp 57D581C6)
     (at 105.918 110.744 270)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
@@ -3417,7 +3417,7 @@
     )
   )
 
-  (module featherlight:DO-214AC (layer F.Cu) (tedit 57D98598) (tstamp 57D58147)
+  (module featherlight:DO-214AC (layer F.Cu) (tedit 57DB6658) (tstamp 57D58147)
     (at 91.694 100.838)
     (descr "Jedec DO-214AC diode package.")
     (tags "DO-214AC diode")
@@ -3446,7 +3446,7 @@
     )
   )
 
-  (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer B.Cu) (tedit 57D98598) (tstamp 57D631B6)
+  (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer B.Cu) (tedit 57DB6658) (tstamp 57D631B6)
     (at 103.124 94.234)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
@@ -3463,7 +3463,7 @@
       (net 1 GND))
   )
 
-  (module Capacitors_SMD:C_0805 (layer B.Cu) (tedit 57D98598) (tstamp 57D76F60)
+  (module Capacitors_SMD:C_0805 (layer B.Cu) (tedit 57DB6658) (tstamp 57D76F60)
     (at 106.172 107.188)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -3492,7 +3492,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer B.Cu) (tedit 57D98598) (tstamp 57D76F76)
+  (module Capacitors_SMD:C_0805 (layer B.Cu) (tedit 57DB6658) (tstamp 57D76F76)
     (at 107.95 100.838)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -3521,7 +3521,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer B.Cu) (tedit 57D98598) (tstamp 57D76F82)
+  (module Capacitors_SMD:C_0805 (layer B.Cu) (tedit 57DB6658) (tstamp 57D76F82)
     (at 118.11 101.584 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -3550,7 +3550,7 @@
     )
   )
 
-  (module Connector-FFC:Panasonic_AYF530635 (layer B.Cu) (tedit 57D98598) (tstamp 57D98818)
+  (module Connector-FFC:Panasonic_AYF530635 (layer B.Cu) (tedit 57DB6658) (tstamp 57D98818)
     (at 81.788 101.6 90)
     (path /57B3695B/57D97A92)
     (fp_text reference P10 (at 0 3.7 90) (layer B.SilkS) hide
@@ -3581,6 +3581,66 @@
     (pad "" smd rect (at -2.25 -1 90) (size 0.4 0.8) (layers B.Cu B.Paste B.Mask))
   )
 
+  (dimension 22.86 (width 0.3) (layer Dwgs.User)
+    (gr_text "0.9000 in" (at 113.03 72.31) (layer Dwgs.User)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 124.46 101.6) (xy 124.46 70.96)))
+    (feature2 (pts (xy 101.6 101.6) (xy 101.6 70.96)))
+    (crossbar (pts (xy 101.6 73.66) (xy 124.46 73.66)))
+    (arrow1a (pts (xy 124.46 73.66) (xy 123.333496 74.246421)))
+    (arrow1b (pts (xy 124.46 73.66) (xy 123.333496 73.073579)))
+    (arrow2a (pts (xy 101.6 73.66) (xy 102.726504 74.246421)))
+    (arrow2b (pts (xy 101.6 73.66) (xy 102.726504 73.073579)))
+  )
+  (dimension 27.94 (width 0.3) (layer Dwgs.User)
+    (gr_text "1.1000 in" (at 128.35 92.71 90) (layer Dwgs.User) (tstamp 57DB672C)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 116.078 78.74) (xy 129.7 78.74)))
+    (feature2 (pts (xy 116.078 106.68) (xy 129.7 106.68)))
+    (crossbar (pts (xy 127 106.68) (xy 127 78.74)))
+    (arrow1a (pts (xy 127 78.74) (xy 127.586421 79.866504)))
+    (arrow1b (pts (xy 127 78.74) (xy 126.413579 79.866504)))
+    (arrow2a (pts (xy 127 106.68) (xy 127.586421 105.553496)))
+    (arrow2b (pts (xy 127 106.68) (xy 126.413579 105.553496)))
+  )
+  (dimension 8.382 (width 0.3) (layer Dwgs.User)
+    (gr_text "0.3300 in" (at 120.269 125.302) (layer Dwgs.User) (tstamp 57DB672D)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 124.46 106.68) (xy 124.46 126.652)))
+    (feature2 (pts (xy 116.078 106.68) (xy 116.078 126.652)))
+    (crossbar (pts (xy 116.078 123.952) (xy 124.46 123.952)))
+    (arrow1a (pts (xy 124.46 123.952) (xy 123.333496 124.538421)))
+    (arrow1b (pts (xy 124.46 123.952) (xy 123.333496 123.365579)))
+    (arrow2a (pts (xy 116.078 123.952) (xy 117.204504 124.538421)))
+    (arrow2b (pts (xy 116.078 123.952) (xy 117.204504 123.365579)))
+  )
+  (dimension 19.812 (width 0.3) (layer Dwgs.User)
+    (gr_text "0.7800 in" (at 73.58 88.646 90) (layer Dwgs.User) (tstamp 57DB672E)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 86.614 78.74) (xy 72.23 78.74)))
+    (feature2 (pts (xy 86.614 98.552) (xy 72.23 98.552)))
+    (crossbar (pts (xy 74.93 98.552) (xy 74.93 78.74)))
+    (arrow1a (pts (xy 74.93 78.74) (xy 75.516421 79.866504)))
+    (arrow1b (pts (xy 74.93 78.74) (xy 74.343579 79.866504)))
+    (arrow2a (pts (xy 74.93 98.552) (xy 75.516421 97.425496)))
+    (arrow2b (pts (xy 74.93 98.552) (xy 74.343579 97.425496)))
+  )
+  (dimension 7.874 (width 0.3) (layer Dwgs.User)
+    (gr_text "0.3100 in" (at 82.677 74.85) (layer Dwgs.User) (tstamp 57DB672F)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 78.74 98.552) (xy 78.74 73.5)))
+    (feature2 (pts (xy 86.614 98.552) (xy 86.614 73.5)))
+    (crossbar (pts (xy 86.614 76.2) (xy 78.74 76.2)))
+    (arrow1a (pts (xy 78.74 76.2) (xy 79.866504 75.613579)))
+    (arrow1b (pts (xy 78.74 76.2) (xy 79.866504 76.786421)))
+    (arrow2a (pts (xy 86.614 76.2) (xy 85.487496 75.613579)))
+    (arrow2b (pts (xy 86.614 76.2) (xy 85.487496 76.786421)))
+  )
   (gr_text "Featherlight\nRev B" (at 91.186 109.982) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
@@ -3871,7 +3931,7 @@
   (segment (start 108.712 100.118) (end 107.992 100.118) (width 0.254) (layer F.Cu) (net 1))
   (segment (start 110.122 100.35) (end 108.944 100.35) (width 0.2032) (layer F.Cu) (net 1))
   (segment (start 108.944 100.35) (end 108.712 100.118) (width 0.2032) (layer F.Cu) (net 1))
-  (via (at 101.35 101.604) (size 0.762) (drill 0.508) (layers F.Cu B.Cu) (net 1))
+  (via (at 101.35 101.604) (size 0.762) (drill 0.508) (layers F.Cu B.Cu) (net 1) (status 1000000))
   (segment (start 99.35 103.1625) (end 99.35 102.35) (width 0.2032) (layer F.Cu) (net 1))
   (segment (start 103.85 103.1625) (end 103.85 102.35) (width 0.2032) (layer F.Cu) (net 1))
   (segment (start 99.35 102.35) (end 99.7915 102.35) (width 0.2032) (layer F.Cu) (net 1))
