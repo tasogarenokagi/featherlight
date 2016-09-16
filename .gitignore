@@ -1,5 +1,7 @@
 fingerlight
 ffctest
+arduino
+datasheets
 
 *cache.lib
 *jpg
@@ -8,3 +10,7 @@ ffctest
 *zip
 *bak
 *bck
+*pdf
+*csv
+*ods
+*gvp
