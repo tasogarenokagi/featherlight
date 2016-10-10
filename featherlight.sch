@@ -71,7 +71,10 @@ P 7000 4050
 F 0 "FID1" H 7228 4050 60  0000 L CNN
 F 1 "Fiducial" H 7228 3997 60  0001 L CNN
 F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7000 4050 60  0001 C CNN
-F 3 "" H 7000 4050 60  0000 C CNN
+F 3 "~" H 7000 4050 60  0000 C CNN
+F 4 "~" H 7000 4050 60  0001 C CNN "Part No"
+F 5 "~" H 7000 4050 60  0001 C CNN "Mftr"
+F 6 "~" H 7000 4050 60  0001 C CNN "MSL"
 	1    7000 4050
 	1    0    0    -1  
 $EndComp
@@ -82,7 +85,10 @@ P 7750 4050
 F 0 "FID2" H 7978 4050 60  0000 L CNN
 F 1 "Fiducial" H 7978 3997 60  0001 L CNN
 F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7750 4050 60  0001 C CNN
-F 3 "" H 7750 4050 60  0000 C CNN
+F 3 "~" H 7750 4050 60  0000 C CNN
+F 4 "~" H 7750 4050 60  0001 C CNN "Part No"
+F 5 "~" H 7750 4050 60  0001 C CNN "Mftr"
+F 6 "~" H 7750 4050 60  0001 C CNN "MSL"
 	1    7750 4050
 	1    0    0    -1  
 $EndComp
@@ -93,7 +99,10 @@ P 8500 4050
 F 0 "FID3" H 8728 4050 60  0000 L CNN
 F 1 "Fiducial" H 8728 3997 60  0001 L CNN
 F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 8500 4050 60  0001 C CNN
-F 3 "" H 8500 4050 60  0000 C CNN
+F 3 "~" H 8500 4050 60  0000 C CNN
+F 4 "~" H 8500 4050 60  0001 C CNN "Part No"
+F 5 "~" H 8500 4050 60  0001 C CNN "Mftr"
+F 6 "~" H 8500 4050 60  0001 C CNN "MSL"
 	1    8500 4050
 	1    0    0    -1  
 $EndComp
@@ -104,7 +113,10 @@ P 7000 4550
 F 0 "FID4" H 7228 4550 60  0000 L CNN
 F 1 "Fiducial" H 7228 4497 60  0001 L CNN
 F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7000 4550 60  0001 C CNN
-F 3 "" H 7000 4550 60  0000 C CNN
+F 3 "~" H 7000 4550 60  0000 C CNN
+F 4 "~" H 7000 4550 60  0001 C CNN "Part No"
+F 5 "~" H 7000 4550 60  0001 C CNN "Mftr"
+F 6 "~" H 7000 4550 60  0001 C CNN "MSL"
 	1    7000 4550
 	1    0    0    -1  
 $EndComp
@@ -115,7 +127,10 @@ P 7750 4550
 F 0 "FID5" H 7978 4550 60  0000 L CNN
 F 1 "Fiducial" H 7978 4497 60  0001 L CNN
 F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7750 4550 60  0001 C CNN
-F 3 "" H 7750 4550 60  0000 C CNN
+F 3 "~" H 7750 4550 60  0000 C CNN
+F 4 "~" H 7750 4550 60  0001 C CNN "Part No"
+F 5 "~" H 7750 4550 60  0001 C CNN "Mftr"
+F 6 "~" H 7750 4550 60  0001 C CNN "MSL"
 	1    7750 4550
 	1    0    0    -1  
 $EndComp
@@ -126,7 +141,10 @@ P 8500 4550
 F 0 "FID6" H 8728 4550 60  0000 L CNN
 F 1 "Fiducial" H 8728 4497 60  0001 L CNN
 F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 8500 4550 60  0001 C CNN
-F 3 "" H 8500 4550 60  0000 C CNN
+F 3 "~" H 8500 4550 60  0000 C CNN
+F 4 "~" H 8500 4550 60  0001 C CNN "Part No"
+F 5 "~" H 8500 4550 60  0001 C CNN "Mftr"
+F 6 "~" H 8500 4550 60  0001 C CNN "MSL"
 	1    8500 4550
 	1    0    0    -1  
 $EndComp
