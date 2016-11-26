@@ -70,7 +70,7 @@
     (pad_size 1.55 1.55)
     (pad_drill 1.15)
     (pad_to_mask_clearance 0.2)
-    (pad_to_paste_clearance_ratio -0.05)
+    (pad_to_paste_clearance_ratio -0.1835)
     (aux_axis_origin 57.15 57.15)
     (visible_elements FFFFFF7F)
     (pcbplotparams
