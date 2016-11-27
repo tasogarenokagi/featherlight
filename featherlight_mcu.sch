@@ -32,7 +32,7 @@ LIBS:adafruit
 LIBS:featherlight
 LIBS:fiducial
 LIBS:featherlight-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -842,7 +842,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 5400 3450 5500
 Wire Wire Line
-	3450 5500 3350 5500
+	3350 5500 3650 5500
 Connection ~ 3350 5500
 Wire Wire Line
 	5350 7300 5350 7400
@@ -1047,19 +1047,6 @@ Wire Wire Line
 	4200 1650 4200 1900
 Connection ~ 4200 1900
 Connection ~ 3800 1650
-$Comp
-L +3.3V #PWR031
-U 1 1 57D79896
-P 3300 2300
-F 0 "#PWR031" H 3300 2150 50  0001 C CNN
-F 1 "+3.3V" H 3150 2300 50  0000 C CNN
-F 2 "" H 3300 2300 50  0000 C CNN
-F 3 "" H 3300 2300 50  0000 C CNN
-	1    3300 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 2300 3300 2400
 Wire Wire Line
 	2700 1900 3550 1900
 Wire Wire Line
@@ -1107,4 +1094,7 @@ F 6 "3" V 7550 4450 60  0001 C CNN "MSL"
 	1    7550 4450
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3650 5500 3650 5400
+Connection ~ 3450 5500
 $EndSCHEMATC
