@@ -16,9 +16,19 @@ K AVR 8bit Microcontroller ClassicAVR
 F http://www.atmel.com/Images/doc1042.pdf
 $ENDCMP
 #
+$CMP DRTR5V0U4LP16
+D Transient voltage suppressor diode array (bi-directional)
+K TVS TRANSIENT SUPPROESSOR ESD ARRAY
+$ENDCMP
+#
 $CMP MCP73831
 D Single Cell lithium ion/lithium polymer charge controller
 K battery charge lipoly liion PMIC
+$ENDCMP
+#
+$CMP PUSBM5V5X4-TL
+D Transient voltage suppressor diode array (bi-directional)
+K TVS TRANSIENT SUPPROESSOR ESD ARRAY
 $ENDCMP
 #
 $CMP SAMD21E18A-M
@@ -31,11 +41,6 @@ $CMP SAMD21G18
 D TQFP48, 16K Flash, 2K RAM, 48MHz, CortexM0+
 K ARM 32bit Microcontroller 48MHz CortexM0+
 F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
-$ENDCMP
-#
-$CMP TVS_Array
-D Transient voltage suppressor diode array (bi-directional)
-K TVS TRANSIENT SUPPROESSOR ESD ARRAY
 $ENDCMP
 #
 $CMP VUSB
