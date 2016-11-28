@@ -1,4 +1,4 @@
-update=Sun 11 Sep 2016 01:27:51 AM EDT
+update=Sun 13 Nov 2016 09:50:15 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,6 +58,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/matthew/src/electronics/kicad/adafruit
+LibName30=/home/rachel/src/electronics/kicad/adafruit
 LibName31=featherlight
-LibName32=/home/matthew/src/electronics/kicad/fiducial
+LibName32=/home/rachel/src/electronics/kicad/fiducial
