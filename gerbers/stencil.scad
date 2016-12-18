@@ -18,21 +18,49 @@ dowelHole(-1,-2.25);
 dowelHole(-2,-2.25);
 dowelHole(1,-2.25);
 dowelHole(2,-2.25);
-
-// polygon([
-//     [    0,  76.2],
-//     [    0, -76.2],
-//     [-76.2, -76.2],
-//     [-76.2,  76.2],
-//     [ 76.2,  76.2],
-//     [ 76.2, -76.2],
-//     [    0, -76.2]
-// ]);
+borderCuts(6);
 
 module dowelHole (xInches, yInches)
 {
     translate([xInches * 25.4, yInches * 25.4, 0])
     {
         circle(d=25.4/4, $fn=32);
+    }
+}
+
+module borderCuts(sideInches)
+{
+    coord = sideInches * 25.4 / 2;
+    lineWidth = 0.25;
+    polygonShell(lineWidth)
+    {
+        polygon([
+            [-coord, -coord],
+            [-coord,  coord],
+            [ coord,  coord],
+            [ coord, -coord]
+        ]);
+    }
+
+    polygon([
+        [-lineWidth/2, -coord],
+        [-lineWidth/2,  coord],
+        [ lineWidth/2,  coord],
+        [ lineWidth/2, -coord]
+    ]);
+}
+
+module polygonShell (lineWidth=0.25)
+{
+    difference()
+    {
+        offset(r = lineWidth/2)
+        {
+                children();
+        };
+        offset(r = -lineWidth/2)
+        {
+                children();
+        };
     }
 }
