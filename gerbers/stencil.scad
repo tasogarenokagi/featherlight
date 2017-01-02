@@ -18,7 +18,7 @@ dowelHole(-1,-2.25);
 dowelHole(-2,-2.25);
 dowelHole(1,-2.25);
 dowelHole(2,-2.25);
-borderCuts(6);
+//borderCuts(6);
 
 module dowelHole (xInches, yInches)
 {
