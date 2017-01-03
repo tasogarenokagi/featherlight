@@ -835,11 +835,6 @@ Connection ~ 1300 2800
 Wire Wire Line
 	2150 2200 2150 1400
 Connection ~ 2150 1400
-Wire Wire Line
-	1750 2200 1750 2100
-Wire Wire Line
-	1750 2100 2800 2100
-Connection ~ 2800 2100
 $Comp
 L DRTR5V0U4LP16 D23
 U 1 1 583AD645
@@ -957,4 +952,5 @@ Text Label 2200 1200 0    60   ~ 0
 VUSB
 Text Label 3400 1200 0    60   ~ 0
 VFUSE
+NoConn ~ 1750 2200
 $EndSCHEMATC
