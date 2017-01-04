@@ -148,4 +148,26 @@ F 6 "~" H 8500 4550 60  0001 C CNN "MSL"
 	1    8500 4550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Fiducial HOLE1
+U 1 1 586BB929
+P 9750 4050
+F 0 "HOLE1" H 9978 4103 60  0000 L CNN
+F 1 "Fiducial" H 9978 3997 60  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 9750 4050 60  0001 C CNN
+F 3 "" H 9750 4050 60  0000 C CNN
+	1    9750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial HOLE2
+U 1 1 586BBA5D
+P 9750 4550
+F 0 "HOLE2" H 9978 4603 60  0000 L CNN
+F 1 "Fiducial" H 9978 4497 60  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 9750 4550 60  0001 C CNN
+F 3 "" H 9750 4550 60  0000 C CNN
+	1    9750 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
