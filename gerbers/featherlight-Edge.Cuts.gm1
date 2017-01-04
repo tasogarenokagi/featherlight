@@ -1,7 +1,10 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-7423~56~ubuntu16.10.1*
+G04 #@! TF.CreationDate,2017-01-04T02:03:21-05:00*
+G04 #@! TF.ProjectId,featherlight,666561746865726C696768742E6B6963,rev?*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 201611251247+7376~55~ubuntu16.10.1-product) date Sun Nov 27 22:14:47 2016*
+G04 Created by KiCad (PCBNEW no-vcs-found-7423~56~ubuntu16.10.1) date Wed Jan  4 02:03:21 2017*
 %MOMM*%
 %LPD*%
 G01*
