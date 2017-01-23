@@ -1,9 +1,9 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7448~57~ubuntu16.10.1)
+(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7471~57~ubuntu16.10.1)
 
   (general
-    (links 278)
+    (links 0)
     (no_connects 2)
-    (area 62.814286 74.542819 139.623716 137.492001)
+    (area 76.124999 76.124999 127.075001 127.075001)
     (thickness 1.6002)
     (drawings 92)
     (tracks 1079)
@@ -950,7 +950,7 @@
       (net 33 "Net-(C2-Pad2)"))
     (pad 1 smd rect (at -1.25 0 180) (size 1.1 1.9) (layers F.Cu F.Paste F.Mask)
       (net 32 "Net-(C1-Pad2)"))
-    (model ${KISYS3DMOD}/Crystals.3dshapes/Crystal_SMD_5032_2Pads.wrl
+    (model ${KISYS3DMOD}/Crystals.3dshapes/Crystal_SMD_5032-2pin_5.0x3.2mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.25 0.25 0.25))
       (rotate (xyz 0 0 0))
@@ -2860,7 +2860,7 @@
       (net 35 "Net-(C11-Pad2)"))
     (pad 1 smd rect (at -1.25 0 180) (size 1.1 1.9) (layers F.Cu F.Paste F.Mask)
       (net 34 "Net-(C10-Pad2)"))
-    (model ${KISYS3DMOD}/Crystals.3dshapes/Crystal_SMD_5032_2Pads.wrl
+    (model ${KISYS3DMOD}/Crystals.3dshapes/Crystal_SMD_5032-2pin_5.0x3.2mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.25 0.25 0.25))
       (rotate (xyz 0 0 0))
@@ -3706,10 +3706,10 @@
       (net 1 GND))
     (pad 1 smd rect (at -3.12 0 180) (size 2.37 2.43) (layers B.Cu B.Paste B.Mask)
       (net 10 VDD))
-    (model Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeD_EIA-7343_Reflow.wrl
+    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/CP_Tantalum_Case-D_EIA-7343-31.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -3735,10 +3735,10 @@
       (net 2 +3V3))
     (pad 2 smd rect (at 3.12 0 90) (size 2.37 2.43) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeD_EIA-7343_Reflow.wrl
+    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/CP_Tantalum_Case-D_EIA-7343-31.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -3779,7 +3779,7 @@
   (gr_line (start 119.634 108.966) (end 119.634 103.886) (layer Eco2.User) (width 0.2))
   (gr_line (start 114.554 108.966) (end 119.634 108.966) (layer Eco2.User) (width 0.2))
   (dimension 6.985 (width 0.3) (layer Dwgs.User)
-    (gr_text "0.2750 in" (at 68.5 98.1075 270) (layer Dwgs.User) (tstamp 587934A8)
+    (gr_text "0.2750 in" (at 68.5 98.1075 270) (layer Dwgs.User) (tstamp 587E73C5)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 86.741 101.6) (xy 67.15 101.6)))
@@ -3791,7 +3791,7 @@
     (arrow2b (pts (xy 69.85 94.615) (xy 70.436421 95.741504)))
   )
   (dimension 14.859 (width 0.3) (layer Dwgs.User)
-    (gr_text "0.5850 in" (at 94.1705 131.398) (layer Dwgs.User) (tstamp 587934A9)
+    (gr_text "0.5850 in" (at 94.1705 131.398) (layer Dwgs.User) (tstamp 587E73C6)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 101.6 94.615) (xy 101.6 132.748)))
@@ -3881,7 +3881,7 @@
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (dimension 50.8 (width 0.3) (layer Dwgs.User)
-    (gr_text "2.0000 in" (at 101.6 136.097) (layer Dwgs.User) (tstamp 587934AA)
+    (gr_text "2.0000 in" (at 101.6 136.097) (layer Dwgs.User) (tstamp 587E73C7)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 76.2 101.6) (xy 76.2 137.447)))
@@ -3893,7 +3893,7 @@
     (arrow2b (pts (xy 127 134.747) (xy 125.873496 135.333421)))
   )
   (dimension 5.334 (width 0.3) (layer Dwgs.User)
-    (gr_text "0.2100 in" (at 133.938 104.267 90) (layer Dwgs.User) (tstamp 587934AB)
+    (gr_text "0.2100 in" (at 133.938 104.267 90) (layer Dwgs.User) (tstamp 587E73C8)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 117.602 101.6) (xy 135.288 101.6)))
@@ -3905,7 +3905,7 @@
     (arrow2b (pts (xy 132.588 106.934) (xy 132.001579 105.807496)))
   )
   (dimension 16.002 (width 0.3) (layer Dwgs.User)
-    (gr_text "0.6300 in" (at 109.601 131.398) (layer Dwgs.User) (tstamp 587934AC)
+    (gr_text "0.6300 in" (at 109.601 131.398) (layer Dwgs.User) (tstamp 587E73C9)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 101.6 106.934) (xy 101.6 132.748)))
