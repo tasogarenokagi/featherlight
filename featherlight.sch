@@ -1,36 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:adafruit
-LIBS:featherlight
-LIBS:fiducial
+EESchema Schematic File Version 4
 LIBS:featherlight-cache
 EELAYER 26 0
 EELAYER END
@@ -65,7 +33,7 @@ F0 "Power Regulation & Distribution" 60
 F1 "power.sch" 60
 $EndSheet
 $Comp
-L Fiducial FID1
+L fiducial:Fiducial FID1
 U 1 1 57D53845
 P 7000 4050
 F 0 "FID1" H 7228 4050 60  0000 L CNN
@@ -79,7 +47,7 @@ F 6 "~" H 7000 4050 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID2
+L fiducial:Fiducial FID2
 U 1 1 57D538E4
 P 7750 4050
 F 0 "FID2" H 7978 4050 60  0000 L CNN
@@ -93,7 +61,7 @@ F 6 "~" H 7750 4050 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID3
+L fiducial:Fiducial FID3
 U 1 1 57D53914
 P 8500 4050
 F 0 "FID3" H 8728 4050 60  0000 L CNN
@@ -107,7 +75,7 @@ F 6 "~" H 8500 4050 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID4
+L fiducial:Fiducial FID4
 U 1 1 57D53AA8
 P 7000 4550
 F 0 "FID4" H 7228 4550 60  0000 L CNN
@@ -121,7 +89,7 @@ F 6 "~" H 7000 4550 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID5
+L fiducial:Fiducial FID5
 U 1 1 57D53AAE
 P 7750 4550
 F 0 "FID5" H 7978 4550 60  0000 L CNN
@@ -135,7 +103,7 @@ F 6 "~" H 7750 4550 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID6
+L fiducial:Fiducial FID6
 U 1 1 57D53AB4
 P 8500 4550
 F 0 "FID6" H 8728 4550 60  0000 L CNN
@@ -149,7 +117,7 @@ F 6 "~" H 8500 4550 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial HOLE1
+L fiducial:Fiducial HOLE1
 U 1 1 586BB929
 P 9750 4050
 F 0 "HOLE1" H 9978 4103 60  0000 L CNN
@@ -162,7 +130,7 @@ F 5 "?" H 9750 4050 60  0001 C CNN "Mftr"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial HOLE2
+L fiducial:Fiducial HOLE2
 U 1 1 586BBA5D
 P 9750 4550
 F 0 "HOLE2" H 9978 4603 60  0000 L CNN

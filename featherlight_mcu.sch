@@ -1,36 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:adafruit
-LIBS:featherlight
-LIBS:fiducial
+EESchema Schematic File Version 4
 LIBS:featherlight-cache
 EELAYER 26 0
 EELAYER END
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 57B424A2
 P 9550 5950
 F 0 "#PWR01" H 9550 5700 50  0001 C CNN
@@ -58,7 +26,7 @@ F 3 "" H 9550 5950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 57B42821
 P 9800 5250
 F 0 "#PWR02" H 9800 5000 50  0001 C CNN
@@ -71,7 +39,7 @@ $EndComp
 Text GLabel 10150 5650 2    60   Output ~ 0
 LED_control_stream
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 57B5D2CA
 P 3350 5600
 F 0 "#PWR03" H 3350 5350 50  0001 C CNN
@@ -82,9 +50,11 @@ F 3 "" H 3350 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C14
+L Device:C_Small C14
 U 1 1 57B5D3BB
 P 3100 5600
+AR Path="/57B5D3BB" Ref="C14"  Part="1" 
+AR Path="/57B36956/57B5D3BB" Ref="C14"  Part="1" 
 F 0 "C14" H 2900 5500 50  0000 C CNN
 F 1 "1 uF" H 2900 5600 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 3100 5600 50  0001 C CNN
@@ -96,9 +66,11 @@ F 6 "1" H 3100 5600 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L Device:C_Small C7
 U 1 1 57B5D5D2
 P 2600 1900
+AR Path="/57B5D5D2" Ref="C7"  Part="1" 
+AR Path="/57B36956/57B5D5D2" Ref="C7"  Part="1" 
 F 0 "C7" V 2750 1850 50  0000 C CNN
 F 1 "0.1 uF" V 2850 1900 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 2600 1900 50  0001 C CNN
@@ -110,7 +82,7 @@ F 6 "1" H 2600 1900 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 57B5D9D3
 P 3100 5800
 F 0 "#PWR04" H 3100 5550 50  0001 C CNN
@@ -121,9 +93,11 @@ F 3 "" H 3100 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C8
+L Device:C_Small C8
 U 1 1 57B5DC23
 P 4000 1900
+AR Path="/57B5DC23" Ref="C8"  Part="1" 
+AR Path="/57B36956/57B5DC23" Ref="C8"  Part="1" 
 F 0 "C8" V 4150 1900 50  0000 C CNN
 F 1 "0.1 uF" V 4250 1950 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 4000 1900 50  0001 C CNN
@@ -135,7 +109,7 @@ F 6 "1" H 4000 1900 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDA #PWR05
+L power:GNDA #PWR05
 U 1 1 57B5DFD6
 P 4300 1900
 F 0 "#PWR05" H 4300 1650 50  0001 C CNN
@@ -146,7 +120,7 @@ F 3 "" H 4300 1900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR06
+L power:+3.3V #PWR06
 U 1 1 57B5E012
 P 3800 1450
 F 0 "#PWR06" H 3800 1300 50  0001 C CNN
@@ -157,7 +131,7 @@ F 3 "" H 3800 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 57B5EAF4
 P 9450 4000
 F 0 "#PWR07" H 9450 3750 50  0001 C CNN
@@ -168,9 +142,11 @@ F 3 "" H 9450 4000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C12
+L Device:C_Small C12
 U 1 1 57B5EBBF
 P 8850 4100
+AR Path="/57B5EBBF" Ref="C12"  Part="1" 
+AR Path="/57B36956/57B5EBBF" Ref="C12"  Part="1" 
 F 0 "C12" H 8942 4146 50  0000 L CNN
 F 1 "0.1 uF" H 8942 4055 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8850 4100 50  0001 C CNN
@@ -182,7 +158,7 @@ F 6 "1" H 8850 4100 60  0001 C CNN "MSL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 57B5EC63
 P 8850 4300
 F 0 "#PWR08" H 8850 4050 50  0001 C CNN
@@ -193,7 +169,7 @@ F 3 "" H 8850 4300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR09
+L power:+3.3V #PWR09
 U 1 1 57B5F2D7
 P 9050 1400
 F 0 "#PWR09" H 9050 1250 50  0001 C CNN
@@ -204,9 +180,11 @@ F 3 "" H 9050 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L Device:C_Small C3
 U 1 1 57B5F37A
 P 8750 1700
+AR Path="/57B5F37A" Ref="C3"  Part="1" 
+AR Path="/57B36956/57B5F37A" Ref="C3"  Part="1" 
 F 0 "C3" V 8521 1700 50  0000 C CNN
 F 1 "0.1 uF" V 8612 1700 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 8750 1700 50  0001 C CNN
@@ -218,9 +196,11 @@ F 6 "1" H 8750 1700 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C4
+L Device:C_Small C4
 U 1 1 57B5F3F7
 P 9550 1700
+AR Path="/57B5F3F7" Ref="C4"  Part="1" 
+AR Path="/57B36956/57B5F3F7" Ref="C4"  Part="1" 
 F 0 "C4" V 9321 1700 50  0000 C CNN
 F 1 "0.1 uF" V 9412 1700 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 9550 1700 50  0001 C CNN
@@ -232,7 +212,7 @@ F 6 "1" H 9550 1700 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 57B5F546
 P 9750 1700
 F 0 "#PWR010" H 9750 1450 50  0001 C CNN
@@ -243,7 +223,7 @@ F 3 "" H 9750 1700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 57B5F591
 P 8550 1700
 F 0 "#PWR011" H 8550 1450 50  0001 C CNN
@@ -254,9 +234,11 @@ F 3 "" H 8550 1700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Crystal_Small Y2
+L Device:Crystal_Small Y2
 U 1 1 57B5FA67
 P 10400 3150
+AR Path="/57B5FA67" Ref="Y2"  Part="1" 
+AR Path="/57B36956/57B5FA67" Ref="Y2"  Part="1" 
 F 0 "Y2" V 10350 2950 50  0000 L CNN
 F 1 "32.768 KHz" V 10450 2800 50  0000 L CNN
 F 2 "featherlight:Crystal_SMD_3215_2Pads" H 10400 3150 50  0001 C CNN
@@ -268,9 +250,11 @@ F 6 "1" H 10400 3150 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C10
+L Device:C_Small C10
 U 1 1 57B5FE4E
 P 10750 2950
+AR Path="/57B5FE4E" Ref="C10"  Part="1" 
+AR Path="/57B36956/57B5FE4E" Ref="C10"  Part="1" 
 F 0 "C10" V 10521 2950 50  0000 C CNN
 F 1 "22 pF" V 10612 2950 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 10750 2950 50  0001 C CNN
@@ -282,9 +266,11 @@ F 6 "1" H 10750 2950 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C11
+L Device:C_Small C11
 U 1 1 57B5FF0D
 P 10750 3350
+AR Path="/57B5FF0D" Ref="C11"  Part="1" 
+AR Path="/57B36956/57B5FF0D" Ref="C11"  Part="1" 
 F 0 "C11" V 10521 3350 50  0000 C CNN
 F 1 "22 pF" V 10612 3350 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 10750 3350 50  0001 C CNN
@@ -296,7 +282,7 @@ F 6 "1" H 10750 3350 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L BNO055 U1
+L featherlight:BNO055 U1
 U 1 1 57B60086
 P 9150 2850
 F 0 "U1" H 9150 2950 50  0000 C CNN
@@ -310,7 +296,7 @@ F 6 "1" H 9150 2800 60  0001 C CNN "MSL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 57B604CB
 P 10950 3450
 F 0 "#PWR012" H 10950 3200 50  0001 C CNN
@@ -321,9 +307,11 @@ F 3 "" H 10950 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_Small Y1
+L Device:Crystal_Small Y1
 U 1 1 57B610A2
 P 5600 1850
+AR Path="/57B610A2" Ref="Y1"  Part="1" 
+AR Path="/57B36956/57B610A2" Ref="Y1"  Part="1" 
 F 0 "Y1" H 5500 1750 50  0000 L CNN
 F 1 "32.768 KHz" H 5500 1650 50  0000 L CNN
 F 2 "featherlight:Crystal_SMD_3215_2Pads" H 5600 1850 50  0001 C CNN
@@ -335,9 +323,11 @@ F 6 "1" H 5600 1850 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1
+L Device:C_Small C1
 U 1 1 57B610A8
 P 5400 1500
+AR Path="/57B610A8" Ref="C1"  Part="1" 
+AR Path="/57B36956/57B610A8" Ref="C1"  Part="1" 
 F 0 "C1" H 5150 1600 50  0000 C CNN
 F 1 "22 pF" H 5200 1500 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 5400 1500 50  0001 C CNN
@@ -349,9 +339,11 @@ F 6 "1" H 5400 1500 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L Device:C_Small C2
 U 1 1 57B610AE
 P 5800 1500
+AR Path="/57B610AE" Ref="C2"  Part="1" 
+AR Path="/57B36956/57B610AE" Ref="C2"  Part="1" 
 F 0 "C2" H 5950 1550 50  0000 C CNN
 F 1 "22 pF" H 6000 1450 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 5800 1500 50  0001 C CNN
@@ -363,7 +355,7 @@ F 6 "1" H 5800 1500 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 57B610BC
 P 5250 1300
 F 0 "#PWR013" H 5250 1050 50  0001 C CNN
@@ -380,7 +372,7 @@ D+
 Text Label 7950 3350 0    60   ~ 0
 SCL
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 57BE2203
 P 7850 3250
 F 0 "#PWR014" H 7850 3000 50  0001 C CNN
@@ -391,9 +383,11 @@ F 3 "" H 7850 3250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_PUSH_SMALL_H SW1
+L Switch:SW_Push SW1
 U 1 1 57BE381D
 P 4400 6500
+AR Path="/57BE381D" Ref="SW1"  Part="1" 
+AR Path="/57B36956/57BE381D" Ref="SW1"  Part="1" 
 F 0 "SW1" H 4400 6634 50  0000 C CNN
 F 1 "Button" H 4400 6634 50  0001 C CNN
 F 2 "featherlight:KMR2_switch" H 4400 6700 50  0001 C CNN
@@ -405,7 +399,7 @@ F 6 "1" H 4400 6500 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 57BE4723
 P 4050 6500
 F 0 "#PWR015" H 4050 6250 50  0001 C CNN
@@ -416,9 +410,11 @@ F 3 "" H 4050 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C13
+L Device:C_Small C13
 U 1 1 57BE844E
 P 9350 5350
+AR Path="/57BE844E" Ref="C13"  Part="1" 
+AR Path="/57B36956/57BE844E" Ref="C13"  Part="1" 
 F 0 "C13" V 9121 5350 50  0000 C CNN
 F 1 "0.1 uF" V 9212 5350 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 9350 5350 50  0001 C CNN
@@ -430,7 +426,7 @@ F 6 "1" H 9350 5350 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 57BE893B
 P 9150 5350
 F 0 "#PWR016" H 9150 5100 50  0001 C CNN
@@ -441,9 +437,11 @@ F 3 "" H 9150 5350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R3
+L Device:R_Small R3
 U 1 1 57BFF6BA
 P 6350 4050
+AR Path="/57BFF6BA" Ref="R3"  Part="1" 
+AR Path="/57B36956/57BFF6BA" Ref="R3"  Part="1" 
 F 0 "R3" H 6291 4004 50  0000 R CNN
 F 1 "1 K" H 6291 4095 50  0000 R CNN
 F 2 "Resistors_SMD:R_0603" H 6350 4050 50  0001 C CNN
@@ -455,7 +453,7 @@ F 6 "1" H 6350 4050 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 57BFFDF3
 P 6850 4050
 F 0 "#PWR017" H 6850 3800 50  0001 C CNN
@@ -466,7 +464,7 @@ F 3 "" H 6850 4050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VDD #PWR018
+L power:VDD #PWR018
 U 1 1 57CA7DCE
 P 9550 5250
 F 0 "#PWR018" H 9550 5100 50  0001 C CNN
@@ -477,9 +475,11 @@ F 3 "" H 9550 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH_SMALL_H SW2
+L Switch:SW_Push SW2
 U 1 1 57CFAA80
 P 1250 6550
+AR Path="/57CFAA80" Ref="SW2"  Part="1" 
+AR Path="/57B36956/57CFAA80" Ref="SW2"  Part="1" 
 F 0 "SW2" H 1250 6684 50  0000 C CNN
 F 1 "Button" H 1250 6684 50  0001 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_EVQQ2" H 1250 6750 50  0001 C CNN
@@ -491,7 +491,7 @@ F 6 "1" H 1250 6550 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 57CFAA8C
 P 1000 6550
 F 0 "#PWR019" H 1000 6300 50  0001 C CNN
@@ -502,7 +502,7 @@ F 3 "" H 1000 6550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 57CFAD72
 P 2500 6550
 F 0 "#PWR020" H 2500 6300 50  0001 C CNN
@@ -513,9 +513,11 @@ F 3 "" H 2500 6550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_PUSH_SMALL_H SW4
+L Switch:SW_Push SW4
 U 1 1 57CFAFD2
 P 1250 7450
+AR Path="/57CFAFD2" Ref="SW4"  Part="1" 
+AR Path="/57B36956/57CFAFD2" Ref="SW4"  Part="1" 
 F 0 "SW4" H 1250 7584 50  0000 C CNN
 F 1 "Button" H 1250 7584 50  0001 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_EVQQ2" H 1250 7650 50  0001 C CNN
@@ -527,7 +529,7 @@ F 6 "1" H 1250 7450 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L power:GND #PWR021
 U 1 1 57CFAFDE
 P 1000 7450
 F 0 "#PWR021" H 1000 7200 50  0001 C CNN
@@ -538,21 +540,7 @@ F 3 "" H 1000 7450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_PUSH_SMALL_H SW5
-U 1 1 57CFAFF4
-P 2750 7450
-F 0 "SW5" H 2750 7584 50  0000 C CNN
-F 1 "Button" H 2750 7584 50  0001 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_EVQQ2" H 2750 7650 50  0001 C CNN
-F 3 "~" H 2750 7650 50  0001 C CNN
-F 4 "EVQ-Q2F03W" H 2750 7450 60  0001 C CNN "Part No"
-F 5 "Panasonic" H 2750 7450 60  0001 C CNN "Mftr"
-F 6 "1" H 2750 7450 60  0001 C CNN "MSL"
-	1    2750 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR022
+L power:GND #PWR022
 U 1 1 57CFB000
 P 2500 7450
 F 0 "#PWR022" H 2500 7200 50  0001 C CNN
@@ -563,9 +551,11 @@ F 3 "" H 2500 7450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_PUSH_SMALL_H SW3
+L Switch:SW_Push SW3
 U 1 1 57CFAD66
 P 2750 6550
+AR Path="/57CFAD66" Ref="SW3"  Part="1" 
+AR Path="/57B36956/57CFAD66" Ref="SW3"  Part="1" 
 F 0 "SW3" H 2750 6684 50  0000 C CNN
 F 1 "Button" H 2750 6684 50  0001 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_EVQQ2" H 2750 6750 50  0001 C CNN
@@ -579,7 +569,7 @@ $EndComp
 NoConn ~ 8200 2700
 NoConn ~ 8200 2600
 $Comp
-L 74AHCT1G125 U3
+L featherlight:74AHCT1G125 U3
 U 1 1 57D0F56D
 P 9600 5650
 F 0 "U3" H 9750 5550 50  0000 L CNN
@@ -597,7 +587,7 @@ SWCLK
 Text GLabel 5350 5150 2    60   BiDi ~ 0
 SWDIO
 $Comp
-L +3.3V #PWR023
+L power:+3.3V #PWR023
 U 1 1 57D4A6A4
 P 5350 6900
 F 0 "#PWR023" H 5350 6750 50  0001 C CNN
@@ -608,9 +598,11 @@ F 3 "" H 5350 6900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R4
+L Device:R_Small R4
 U 1 1 57D4A6AD
 P 5350 7100
+AR Path="/57D4A6AD" Ref="R4"  Part="1" 
+AR Path="/57B36956/57D4A6AD" Ref="R4"  Part="1" 
 F 0 "R4" H 5409 7146 50  0000 L CNN
 F 1 "1 K" H 5409 7055 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 5350 7100 50  0001 C CNN
@@ -624,7 +616,7 @@ $EndComp
 Text GLabel 5350 7300 3    60   Input ~ 0
 SWCLK
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 57D4D22B
 P 2300 1900
 F 0 "#PWR024" H 2300 1650 50  0001 C CNN
@@ -635,7 +627,7 @@ F 3 "" H 2300 1900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR025
+L power:+3.3V #PWR025
 U 1 1 57D4D418
 P 3000 1300
 F 0 "#PWR025" H 3000 1150 50  0001 C CNN
@@ -648,9 +640,11 @@ $EndComp
 Text Label 7950 3450 0    60   ~ 0
 SDA
 $Comp
-L R_Small R2
+L Device:R_Small R2
 U 1 1 57D4E0A2
 P 1500 2650
+AR Path="/57D4E0A2" Ref="R2"  Part="1" 
+AR Path="/57B36956/57D4E0A2" Ref="R2"  Part="1" 
 F 0 "R2" V 1300 2600 50  0000 L CNN
 F 1 "470" V 1400 2600 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 1500 2650 50  0001 C CNN
@@ -662,9 +656,11 @@ F 6 "1" H 1500 2650 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C9
+L Device:C_Small C9
 U 1 1 57D4E6B8
 P 1700 2850
+AR Path="/57D4E6B8" Ref="C9"  Part="1" 
+AR Path="/57B36956/57D4E6B8" Ref="C9"  Part="1" 
 F 0 "C9" H 1450 2900 50  0000 L CNN
 F 1 "0.1 uF" H 1350 2800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 1700 2850 50  0001 C CNN
@@ -676,7 +672,7 @@ F 6 "1" H 1700 2850 60  0001 C CNN "MSL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR026
+L power:+3.3V #PWR026
 U 1 1 57D4ED71
 P 7550 3850
 F 0 "#PWR026" H 7550 3700 50  0001 C CNN
@@ -687,7 +683,7 @@ F 3 "" H 7550 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SAMD21E18A-M U2
+L featherlight:SAMD21E18A-M U2
 U 1 1 57D512D5
 P 4000 3900
 F 0 "U2" H 2710 3991 50  0000 R CNN
@@ -707,7 +703,7 @@ NoConn ~ 5250 4150
 Text GLabel 5550 2850 2    60   Input ~ 0
 VDD_MON
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 57D643F9
 P 1700 3050
 F 0 "#PWR027" H 1700 2800 50  0001 C CNN
@@ -719,12 +715,14 @@ F 3 "" H 1700 3050 50  0000 C CNN
 $EndComp
 Text GLabel 1300 2650 0    60   Input ~ 0
 ~RST~
-Text GLabel 4650 6500 2    60   Output ~ 0
+Text GLabel 4700 6500 2    60   Output ~ 0
 ~RST~
 $Comp
-L C_Small C6
+L Device:C_Small C6
 U 1 1 57D78814
 P 4000 1650
+AR Path="/57D78814" Ref="C6"  Part="1" 
+AR Path="/57B36956/57D78814" Ref="C6"  Part="1" 
 F 0 "C6" V 3800 1750 50  0000 C CNN
 F 1 "10 uF" V 3900 1800 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805" H 4000 1650 50  0001 C CNN
@@ -736,9 +734,11 @@ F 6 "1" H 4000 1650 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C5
+L Device:C_Small C5
 U 1 1 57D79ED4
 P 2600 1650
+AR Path="/57D79ED4" Ref="C5"  Part="1" 
+AR Path="/57B36956/57D79ED4" Ref="C5"  Part="1" 
 F 0 "C5" V 2400 1750 50  0000 C CNN
 F 1 "10 uF" V 2500 1800 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805" H 2600 1650 50  0001 C CNN
@@ -750,9 +750,11 @@ F 6 "1" H 2600 1650 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L Led_Small D22
+L Device:LED_Small_ALT D22
 U 1 1 57D7DE8D
 P 6650 4050
+AR Path="/57D7DE8D" Ref="D22"  Part="1" 
+AR Path="/57B36956/57D7DE8D" Ref="D22"  Part="1" 
 F 0 "D22" V 6696 3982 50  0000 R CNN
 F 1 "Red" V 6605 3982 50  0000 R CNN
 F 2 "LEDs:LED_0603" V 6559 3982 50  0001 R CNN
@@ -764,9 +766,11 @@ F 6 "3" V 6650 4050 60  0001 C CNN "MSL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Pack04 RN1
+L Device:R_Pack04 RN1
 U 1 1 583A6821
 P 7350 4250
+AR Path="/583A6821" Ref="RN1"  Part="1" 
+AR Path="/57B36956/583A6821" Ref="RN1"  Part="1" 
 F 0 "RN1" H 6850 4300 50  0000 L CNN
 F 1 "10 K" H 6850 4200 50  0000 L CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x0402" V 7625 4250 50  0001 C CNN
@@ -783,9 +787,11 @@ Text Label 7350 4650 1    60   ~ 0
 SCL
 NoConn ~ 5250 4250
 $Comp
-L 25LC_EEPROM U6
+L Memory_EEPROM:25LCxxx U6
 U 1 1 583B6CFD
 P 7250 1550
+AR Path="/583B6CFD" Ref="U6"  Part="1" 
+AR Path="/57B36956/583B6CFD" Ref="U6"  Part="1" 
 F 0 "U6" H 7450 1950 50  0000 C CNN
 F 1 "16 Mb SPI Flash" H 7650 1850 50  0000 C CNN
 F 2 "featherlight:SOIC-8_Universal_Pitch1.27mm" H 6900 1500 50  0001 C CNN
@@ -796,7 +802,7 @@ F 5 "Cypress Semiconductor" H 7250 1550 60  0001 C CNN "Mftr"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 583B7954
 P 7250 1950
 F 0 "#PWR028" H 7250 1700 50  0001 C CNN
@@ -807,9 +813,11 @@ F 3 "" H 7250 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C35
+L Device:C_Small C35
 U 1 1 583B8946
 P 7050 1150
+AR Path="/583B8946" Ref="C35"  Part="1" 
+AR Path="/57B36956/583B8946" Ref="C35"  Part="1" 
 F 0 "C35" V 6900 900 50  0000 C CNN
 F 1 "0.1 uF" V 7000 950 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 7050 1150 50  0001 C CNN
@@ -821,7 +829,7 @@ F 6 "1" H 7050 1150 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 583B8FAF
 P 6700 1150
 F 0 "#PWR029" H 6700 900 50  0001 C CNN
@@ -832,9 +840,11 @@ F 3 "" H 6700 1150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C34
+L Device:C_Small C34
 U 1 1 583B962B
 P 7050 850
+AR Path="/583B962B" Ref="C34"  Part="1" 
+AR Path="/57B36956/583B962B" Ref="C34"  Part="1" 
 F 0 "C34" V 6900 650 50  0000 C CNN
 F 1 "1 uF" V 7000 650 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 7050 850 50  0001 C CNN
@@ -846,7 +856,7 @@ F 6 "1" H 7050 850 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR030
+L power:GND #PWR030
 U 1 1 583B9F5D
 P 6700 850
 F 0 "#PWR030" H 6700 600 50  0001 C CNN
@@ -857,7 +867,7 @@ F 3 "" H 6700 850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR031
+L power:+3.3V #PWR031
 U 1 1 583BBA21
 P 7250 750
 F 0 "#PWR031" H 7250 600 50  0001 C CNN
@@ -920,9 +930,11 @@ ATMEL_RESET
 Text Label 1850 2650 0    60   ~ 0
 ATMEL_RESET
 $Comp
-L R_Pack04 RN2
+L Device:R_Pack04 RN2
 U 1 1 587676E8
 P 6900 5850
+AR Path="/587676E8" Ref="RN2"  Part="1" 
+AR Path="/57B36956/587676E8" Ref="RN2"  Part="1" 
 F 0 "RN2" V 6500 5800 50  0000 L CNN
 F 1 "10 K" V 6600 5800 50  0000 L CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x0402" V 7175 5850 50  0001 C CNN
@@ -934,7 +946,7 @@ F 6 "1" H 6900 5850 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR032
+L power:+3.3V #PWR032
 U 1 1 58767F1E
 P 6600 5550
 F 0 "#PWR032" H 6600 5400 50  0001 C CNN
@@ -949,7 +961,7 @@ BNO_RESET
 Text Label 8100 2300 2    60   ~ 0
 BNO_BOOTLOAD
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 57B5F9CF
 P 10200 3650
 F 0 "#PWR033" H 10200 3400 50  0001 C CNN
@@ -969,9 +981,9 @@ Connection ~ 3800 1900
 Wire Wire Line
 	3800 1900 3900 1900
 Wire Wire Line
-	4100 1900 4300 1900
+	4100 1900 4200 1900
 Wire Wire Line
-	2300 1900 2500 1900
+	2300 1900 2400 1900
 Wire Wire Line
 	9800 5250 9800 5450
 Wire Wire Line
@@ -979,15 +991,15 @@ Wire Wire Line
 Wire Wire Line
 	10050 5650 10150 5650
 Wire Wire Line
-	9550 5250 9550 5450
+	9550 5250 9550 5350
 Wire Wire Line
 	9550 5850 9550 5950
 Wire Wire Line
 	9050 3800 9050 3900
 Wire Wire Line
-	9050 3900 9450 3900
+	9050 3900 9250 3900
 Wire Wire Line
-	9450 3800 9450 4000
+	9450 3800 9450 3900
 Wire Wire Line
 	9350 3800 9350 3900
 Connection ~ 9350 3900
@@ -1000,9 +1012,9 @@ Wire Wire Line
 Wire Wire Line
 	8850 4200 8850 4300
 Wire Wire Line
-	9050 1400 9050 1900
+	9050 1400 9050 1700
 Wire Wire Line
-	8850 1700 9450 1700
+	8850 1700 9050 1700
 Wire Wire Line
 	9250 1700 9250 1900
 Connection ~ 9050 1700
@@ -1022,7 +1034,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 2950 10950 2950
 Wire Wire Line
-	10950 2950 10950 3450
+	10950 2950 10950 3350
 Wire Wire Line
 	10950 3350 10850 3350
 Connection ~ 10950 3350
@@ -1039,17 +1051,15 @@ Wire Wire Line
 Wire Wire Line
 	5800 1300 5800 1400
 Wire Wire Line
-	5400 1600 5400 2650
+	5400 1600 5400 1850
 Wire Wire Line
-	5800 1600 5800 2750
+	5800 1600 5800 1850
 Connection ~ 5400 1850
 Connection ~ 5800 1850
 Wire Wire Line
-	7850 3250 8200 3250
+	7850 3250 8100 3250
 Wire Wire Line
-	4050 6500 4250 6500
-Wire Wire Line
-	3800 1450 3800 2400
+	3800 1450 3800 1650
 Wire Wire Line
 	9550 5350 9450 5350
 Connection ~ 9550 5350
@@ -1062,29 +1072,13 @@ Wire Wire Line
 Wire Wire Line
 	6550 4050 6450 4050
 Wire Wire Line
-	1100 6550 1000 6550
-Wire Wire Line
-	2600 6550 2500 6550
-Wire Wire Line
-	1100 7450 1000 7450
-Wire Wire Line
-	2600 7450 2500 7450
-Wire Wire Line
-	3100 7450 2900 7450
-Wire Wire Line
-	3100 6550 2900 6550
-Wire Wire Line
-	1600 6550 1400 6550
-Wire Wire Line
-	1400 7450 1600 7450
-Wire Wire Line
 	5250 5050 5350 5050
 Wire Wire Line
-	3350 5400 3350 5600
+	3350 5400 3350 5500
 Wire Wire Line
 	3450 5400 3450 5500
 Wire Wire Line
-	3350 5500 3650 5500
+	3350 5500 3450 5500
 Connection ~ 3350 5500
 Wire Wire Line
 	5350 7200 5350 7300
@@ -1095,9 +1089,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 2750 5250 2750
 Wire Wire Line
-	4650 6500 4550 6500
-Wire Wire Line
-	1600 2650 2750 2650
+	1600 2650 1700 2650
 Connection ~ 1700 2650
 Wire Wire Line
 	5550 3850 5250 3850
@@ -1118,13 +1110,13 @@ Wire Wire Line
 Connection ~ 4200 1900
 Connection ~ 3800 1650
 Wire Wire Line
-	2700 1900 3550 1900
+	2700 1900 3000 1900
 Wire Wire Line
 	3550 1900 3550 2400
 Wire Wire Line
 	2700 1650 3000 1650
 Wire Wire Line
-	3000 1300 3000 1900
+	3000 1300 3000 1650
 Connection ~ 3000 1900
 Wire Wire Line
 	2400 1900 2400 1650
@@ -1140,11 +1132,11 @@ Wire Wire Line
 	3650 5500 3650 5400
 Connection ~ 3450 5500
 Wire Wire Line
-	7550 3850 7550 4050
+	7550 3850 7550 3950
 Wire Wire Line
 	7350 4050 7350 3950
 Wire Wire Line
-	7350 3950 7550 3950
+	7350 3950 7450 3950
 Connection ~ 7550 3950
 Wire Wire Line
 	7450 4050 7450 3950
@@ -1162,7 +1154,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 1850 7250 1950
 Wire Wire Line
-	7250 750  7250 1250
+	7250 750  7250 850 
 Wire Wire Line
 	7250 1150 7150 1150
 Wire Wire Line
@@ -1182,7 +1174,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3550 5550 3550
 Wire Wire Line
-	5250 1300 5800 1300
+	5250 1300 5400 1300
 Connection ~ 5400 1300
 Wire Wire Line
 	7650 1650 7750 1650
@@ -1224,9 +1216,9 @@ Wire Wire Line
 	8100 2400 8200 2400
 Connection ~ 10200 3550
 Wire Wire Line
-	10200 3450 10200 3650
+	10200 3450 10200 3550
 Wire Wire Line
-	6600 5550 6600 5950
+	6600 5550 6600 5650
 Wire Wire Line
 	6600 5950 6700 5950
 Wire Wire Line
@@ -1245,4 +1237,98 @@ Wire Wire Line
 Connection ~ 8100 3250
 NoConn ~ 7250 4050
 NoConn ~ 7250 4450
+Wire Wire Line
+	3800 1900 3800 2400
+Wire Wire Line
+	9350 3900 9450 3900
+Wire Wire Line
+	9250 3900 9350 3900
+Wire Wire Line
+	9450 3900 9450 4000
+Wire Wire Line
+	9050 1700 9050 1900
+Wire Wire Line
+	9050 1700 9250 1700
+Wire Wire Line
+	9250 1700 9450 1700
+Wire Wire Line
+	10950 3350 10950 3450
+Wire Wire Line
+	5400 1850 5400 2650
+Wire Wire Line
+	5800 1850 5800 2750
+Wire Wire Line
+	9550 5350 9550 5450
+Wire Wire Line
+	3350 5500 3350 5600
+Wire Wire Line
+	1700 2650 2750 2650
+Wire Wire Line
+	4200 1900 4300 1900
+Wire Wire Line
+	3800 1650 3800 1900
+Wire Wire Line
+	3000 1900 3550 1900
+Wire Wire Line
+	2400 1900 2500 1900
+Wire Wire Line
+	3000 1650 3000 1900
+Wire Wire Line
+	3450 5500 3650 5500
+Wire Wire Line
+	7550 3950 7550 4050
+Wire Wire Line
+	7450 3950 7550 3950
+Wire Wire Line
+	7250 1150 7250 1250
+Wire Wire Line
+	7250 850  7250 1150
+Wire Wire Line
+	5400 1300 5800 1300
+Wire Wire Line
+	10200 3550 10200 3650
+Wire Wire Line
+	6600 5850 6600 5950
+Wire Wire Line
+	6600 5750 6600 5850
+Wire Wire Line
+	6600 5650 6600 5750
+Wire Wire Line
+	8100 3250 8200 3250
+Wire Wire Line
+	4050 6500 4200 6500
+Wire Wire Line
+	4600 6500 4700 6500
+$Comp
+L Switch:SW_Push SW5
+U 1 1 57CFAFF4
+P 2750 7450
+AR Path="/57CFAFF4" Ref="SW5"  Part="1" 
+AR Path="/57B36956/57CFAFF4" Ref="SW5"  Part="1" 
+F 0 "SW5" H 2750 7584 50  0000 C CNN
+F 1 "Button" H 2750 7584 50  0001 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_EVQQ2" H 2750 7650 50  0001 C CNN
+F 3 "~" H 2750 7650 50  0001 C CNN
+F 4 "EVQ-Q2F03W" H 2750 7450 60  0001 C CNN "Part No"
+F 5 "Panasonic" H 2750 7450 60  0001 C CNN "Mftr"
+F 6 "1" H 2750 7450 60  0001 C CNN "MSL"
+	1    2750 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 7450 1600 7450
+Wire Wire Line
+	1600 6550 1450 6550
+Wire Wire Line
+	1050 6550 1000 6550
+Wire Wire Line
+	1000 7450 1050 7450
+Wire Wire Line
+	2500 7450 2550 7450
+Wire Wire Line
+	2950 7450 3100 7450
+Wire Wire Line
+	3100 6550 2950 6550
+Wire Wire Line
+	2550 6550 2500 6550
 $EndSCHEMATC

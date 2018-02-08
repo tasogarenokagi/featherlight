@@ -1,36 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:adafruit
-LIBS:featherlight
-LIBS:fiducial
+EESchema Schematic File Version 4
 LIBS:featherlight-cache
 EELAYER 26 0
 EELAYER END
@@ -47,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X01 P3
+L Connector_Generic:Conn_01x01 P3
 U 1 1 57D4589A
 P 4350 5850
+AR Path="/57D4589A" Ref="P3"  Part="1" 
+AR Path="/57B369AA/57D4589A" Ref="P3"  Part="1" 
 F 0 "P3" H 4428 5891 50  0000 L CNN
 F 1 "CONN_01X01" H 4428 5800 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 5850 50  0001 C CNN
@@ -61,9 +31,11 @@ F 6 "~" H 4350 5850 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P4
+L Connector_Generic:Conn_01x01 P4
 U 1 1 57D45A8B
 P 4350 6100
+AR Path="/57D45A8B" Ref="P4"  Part="1" 
+AR Path="/57B369AA/57D45A8B" Ref="P4"  Part="1" 
 F 0 "P4" H 4428 6141 50  0000 L CNN
 F 1 "CONN_01X01" H 4428 6050 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 6100 50  0001 C CNN
@@ -75,9 +47,11 @@ F 6 "~" H 4350 6100 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P6
+L Connector_Generic:Conn_01x01 P6
 U 1 1 57D45B39
 P 4350 6850
+AR Path="/57D45B39" Ref="P6"  Part="1" 
+AR Path="/57B369AA/57D45B39" Ref="P6"  Part="1" 
 F 0 "P6" H 4428 6891 50  0000 L CNN
 F 1 "CONN_01X01" H 4428 6800 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 6850 50  0001 C CNN
@@ -89,9 +63,11 @@ F 6 "~" H 4350 6850 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P7
+L Connector_Generic:Conn_01x01 P7
 U 1 1 57D45B3F
 P 4350 7100
+AR Path="/57D45B3F" Ref="P7"  Part="1" 
+AR Path="/57B369AA/57D45B3F" Ref="P7"  Part="1" 
 F 0 "P7" H 4428 7141 50  0000 L CNN
 F 1 "CONN_01X01" H 4428 7050 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 7100 50  0001 C CNN
@@ -103,7 +79,7 @@ F 6 "~" H 4350 7100 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L power:GND #PWR070
 U 1 1 57D460A8
 P 3950 7100
 F 0 "#PWR070" H 3950 6850 50  0001 C CNN
@@ -114,7 +90,7 @@ F 3 "" H 3950 7100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VDD #PWR071
+L power:VDD #PWR071
 U 1 1 57D463A1
 P 3950 6850
 F 0 "#PWR071" H 3950 6700 50  0001 C CNN
@@ -137,7 +113,7 @@ SWCLK
 Text GLabel 3950 6100 0    60   BiDi ~ 0
 SWDIO
 $Comp
-L AP2112 U4
+L featherlight:AP2112 U4
 U 1 1 57D58F11
 P 6300 1400
 F 0 "U4" H 6300 1767 50  0000 C CNN
@@ -151,9 +127,11 @@ F 6 "3" H 6300 1400 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R10
+L Device:R_Small R10
 U 1 1 57D58F12
 P 5500 1350
+AR Path="/57D58F12" Ref="R10"  Part="1" 
+AR Path="/57B369AA/57D58F12" Ref="R10"  Part="1" 
 F 0 "R10" H 5441 1304 50  0000 R CNN
 F 1 "100 K" H 5441 1395 50  0000 R CNN
 F 2 "Resistors_SMD:R_0603" H 5500 1350 50  0001 C CNN
@@ -165,7 +143,7 @@ F 6 "1" H 5500 1350 60  0001 C CNN "MSL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR073
+L power:+3.3V #PWR073
 U 1 1 57D58F13
 P 7100 800
 F 0 "#PWR073" H 7100 650 50  0001 C CNN
@@ -176,7 +154,7 @@ F 3 "" H 7100 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR074
+L power:GND #PWR074
 U 1 1 57D58F14
 P 9950 1000
 F 0 "#PWR074" H 9950 750 50  0001 C CNN
@@ -187,7 +165,7 @@ F 3 "" H 9950 1000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG075
+L power:PWR_FLAG #FLG075
 U 1 1 57D58F15
 P 9950 1100
 F 0 "#FLG075" H 9950 1195 50  0001 C CNN
@@ -198,7 +176,7 @@ F 3 "" H 9950 1100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG076
+L power:PWR_FLAG #FLG076
 U 1 1 57D58F16
 P 9050 1100
 F 0 "#FLG076" H 9050 1195 50  0001 C CNN
@@ -209,9 +187,11 @@ F 3 "" H 9050 1100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C31
+L Device:C_Small C31
 U 1 1 57D58F17
 P 4850 1400
+AR Path="/57D58F17" Ref="C31"  Part="1" 
+AR Path="/57B369AA/57D58F17" Ref="C31"  Part="1" 
 F 0 "C31" H 4942 1446 50  0000 L CNN
 F 1 "220 uF" H 4942 1355 50  0000 L CNN
 F 2 "featherlight:TantalC_SizeD_EIA-7343_Reflow" H 4850 1400 50  0001 C CNN
@@ -223,9 +203,11 @@ F 6 "3" H 4850 1400 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C32
+L Device:C_Small C32
 U 1 1 57D58F18
 P 7000 1550
+AR Path="/57D58F18" Ref="C32"  Part="1" 
+AR Path="/57B369AA/57D58F18" Ref="C32"  Part="1" 
 F 0 "C32" H 7092 1596 50  0000 L CNN
 F 1 "220 uF" H 7092 1505 50  0000 L CNN
 F 2 "featherlight:TantalC_SizeD_EIA-7343_Reflow" H 7000 1550 50  0001 C CNN
@@ -237,7 +219,7 @@ F 6 "3" H 7000 1550 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR077
+L power:GND #PWR077
 U 1 1 57D58F19
 P 4850 1800
 F 0 "#PWR077" H 4850 1550 50  0001 C CNN
@@ -248,7 +230,7 @@ F 3 "" H 4850 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR078
+L power:GND #PWR078
 U 1 1 57D58F1A
 P 6300 1800
 F 0 "#PWR078" H 6300 1550 50  0001 C CNN
@@ -259,7 +241,7 @@ F 3 "" H 6300 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR079
+L power:GND #PWR079
 U 1 1 57D58F1B
 P 7000 1800
 F 0 "#PWR079" H 7000 1550 50  0001 C CNN
@@ -274,7 +256,7 @@ D-
 Text GLabel 2450 1300 2    60   BiDi ~ 0
 D+
 $Comp
-L GND #PWR080
+L power:GND #PWR080
 U 1 1 57D58F1D
 P 1200 2800
 F 0 "#PWR080" H 1200 2550 50  0001 C CNN
@@ -285,7 +267,7 @@ F 3 "" H 1200 2800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR081
+L power:GND #PWR081
 U 1 1 57D58F1E
 P 9050 1700
 F 0 "#PWR081" H 9050 1450 50  0001 C CNN
@@ -296,7 +278,7 @@ F 3 "" H 9050 1700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDA #PWR082
+L power:GNDA #PWR082
 U 1 1 57D58F1F
 P 9050 1800
 F 0 "#PWR082" H 9050 1550 50  0001 C CNN
@@ -320,7 +302,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 1500 4850 1800
 Wire Wire Line
-	6600 1300 7100 1300
+	6600 1300 7000 1300
 Wire Wire Line
 	7000 1300 7000 1450
 Wire Wire Line
@@ -331,29 +313,33 @@ Wire Wire Line
 Wire Wire Line
 	9950 1000 9950 1100
 Wire Wire Line
-	1200 2800 1400 2800
+	1200 2800 1300 2800
 Wire Wire Line
 	9050 1700 9050 1800
 Wire Wire Line
 	7100 1300 7100 800 
 $Comp
-L FUSE F1
+L Device:Fuse F1
 U 1 1 57D58F27
 P 4150 1100
-F 0 "F1" H 4150 1340 50  0000 C CNN
-F 1 "FUSE" H 4150 1249 50  0000 C CNN
+AR Path="/57D58F27" Ref="F1"  Part="1" 
+AR Path="/57B369AA/57D58F27" Ref="F1"  Part="1" 
+F 0 "F1" V 3950 1100 50  0000 C CNN
+F 1 "FUSE" V 4050 1100 50  0000 C CNN
 F 2 "featherlight:1812_PTC" H 4150 1100 50  0001 C CNN
 F 3 "~" H 4150 1100 50  0000 C CNN
 F 4 "0ZCG0200FF2C" H 4150 1100 60  0001 C CNN "Part No"
 F 5 "Bel Fuse" H 4150 1100 60  0001 C CNN "Mftr"
 F 6 "2A" H 4150 1100 60  0001 C CNN "MSL"
 	1    4150 1100
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D20
+L Device:D_Schottky D20
 U 1 1 57D58F28
 P 3800 3750
+AR Path="/57D58F28" Ref="D20"  Part="1" 
+AR Path="/57B369AA/57D58F28" Ref="D20"  Part="1" 
 F 0 "D20" V 3800 3500 50  0000 L CNN
 F 1 "MBRA210LT3G" V 3900 3150 50  0000 L CNN
 F 2 "featherlight:DO-214AC" H 3800 3750 50  0001 C CNN
@@ -365,21 +351,23 @@ F 6 "1" H 3800 3750 60  0001 C CNN "MSL"
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X02 P2
+L Connector_Generic:Conn_01x02 P2
 U 1 1 57D58F29
-P 4700 4150
-F 0 "P2" H 4778 4191 50  0000 L CNN
-F 1 "CONN_01X02" H 4778 4100 50  0000 L CNN
-F 2 "Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 4700 4150 50  0001 C CNN
-F 3 "~" H 4700 4150 50  0000 C CNN
-F 4 "S2B-PH-SM4-TB(LF)(SN)" H 4700 4150 60  0001 C CNN "Part No"
-F 5 "JST" H 4700 4150 60  0001 C CNN "Mftr"
-F 6 "1" H 4700 4150 60  0001 C CNN "MSL"
-	1    4700 4150
+P 4700 4100
+AR Path="/57D58F29" Ref="P2"  Part="1" 
+AR Path="/57B369AA/57D58F29" Ref="P2"  Part="1" 
+F 0 "P2" H 4778 4141 50  0000 L CNN
+F 1 "CONN_01X02" H 4778 4050 50  0000 L CNN
+F 2 "Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 4700 4100 50  0001 C CNN
+F 3 "~" H 4700 4100 50  0000 C CNN
+F 4 "S2B-PH-SM4-TB(LF)(SN)" H 4700 4100 60  0001 C CNN "Part No"
+F 5 "JST" H 4700 4100 60  0001 C CNN "Mftr"
+F 6 "1" H 4700 4100 60  0001 C CNN "MSL"
+	1    4700 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR083
+L power:+BATT #PWR083
 U 1 1 57D58F2A
 P 4400 3900
 F 0 "#PWR083" H 4400 3750 50  0001 C CNN
@@ -390,7 +378,7 @@ F 3 "" H 4400 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR084
+L power:VDD #PWR084
 U 1 1 57D58F2B
 P 4850 800
 F 0 "#PWR084" H 4850 650 50  0001 C CNN
@@ -401,7 +389,7 @@ F 3 "" H 4850 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR085
+L power:VDD #PWR085
 U 1 1 57D58F2D
 P 9050 1000
 F 0 "#PWR085" H 9050 850 50  0001 C CNN
@@ -412,14 +400,12 @@ F 3 "" H 9050 1000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 1100 5900 1100
-Wire Wire Line
-	4850 800  4850 1300
+	4850 800  4850 1100
 Connection ~ 4850 1100
 Wire Wire Line
 	4400 4200 4500 4200
 $Comp
-L GND #PWR086
+L power:GND #PWR086
 U 1 1 57D58F2F
 P 3800 4850
 F 0 "#PWR086" H 3800 4600 50  0001 C CNN
@@ -430,15 +416,15 @@ F 3 "" H 3800 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 4100 4500 4100
+	2950 4100 3800 4100
 Wire Wire Line
-	3800 3900 3800 4350
+	3800 3900 3800 4100
 Connection ~ 3800 4100
 Wire Wire Line
 	4400 3900 4400 4100
 Connection ~ 4400 4100
 $Comp
-L VDD #PWR087
+L power:VDD #PWR087
 U 1 1 57D58F30
 P 2500 3850
 F 0 "#PWR087" H 2500 3700 50  0001 C CNN
@@ -449,7 +435,7 @@ F 3 "" H 2500 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP73831 U5
+L featherlight:MCP73831 U5
 U 1 1 57D58F31
 P 2500 4200
 F 0 "U5" H 2900 4050 60  0000 L CNN
@@ -467,9 +453,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 4300 1950 4300
 $Comp
-L R_Small R14
+L Device:R_Small R14
 U 1 1 57D58F32
 P 1950 4600
+AR Path="/57D58F32" Ref="R14"  Part="1" 
+AR Path="/57B369AA/57D58F32" Ref="R14"  Part="1" 
 F 0 "R14" H 2009 4646 50  0000 L CNN
 F 1 "10 K" H 2009 4555 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 1950 4600 50  0001 C CNN
@@ -485,9 +473,11 @@ Wire Wire Line
 Wire Wire Line
 	1950 4700 1950 4850
 $Comp
-L C_Small C33
+L Device:C_Small C33
 U 1 1 57D58F33
 P 3800 4450
+AR Path="/57D58F33" Ref="C33"  Part="1" 
+AR Path="/57B369AA/57D58F33" Ref="C33"  Part="1" 
 F 0 "C33" H 3708 4404 50  0000 R CNN
 F 1 "10 uF" H 3708 4495 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0805" H 3800 4450 50  0001 C CNN
@@ -501,7 +491,7 @@ $EndComp
 Wire Wire Line
 	3800 4550 3800 4850
 $Comp
-L GND #PWR088
+L power:GND #PWR088
 U 1 1 57D58F34
 P 2500 4850
 F 0 "#PWR088" H 2500 4600 50  0001 C CNN
@@ -512,7 +502,7 @@ F 3 "" H 2500 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR089
+L power:GND #PWR089
 U 1 1 57D58F35
 P 1950 4850
 F 0 "#PWR089" H 1950 4600 50  0001 C CNN
@@ -523,7 +513,7 @@ F 3 "" H 1950 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR090
+L power:GND #PWR090
 U 1 1 57D58F36
 P 4400 4200
 F 0 "#PWR090" H 4400 3950 50  0001 C CNN
@@ -534,9 +524,11 @@ F 3 "" H 4400 4200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R12
+L Device:R_Small R12
 U 1 1 57D58F37
 P 1350 3900
+AR Path="/57D58F37" Ref="R12"  Part="1" 
+AR Path="/57B369AA/57D58F37" Ref="R12"  Part="1" 
 F 0 "R12" H 1100 3950 50  0000 L CNN
 F 1 "470" H 1100 3850 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 1350 3900 50  0001 C CNN
@@ -548,9 +540,11 @@ F 6 "1" H 1350 3900 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Led_Small D21
+L Device:LED_Small_ALT D21
 U 1 1 57D58F38
 P 1550 4100
+AR Path="/57D58F38" Ref="D21"  Part="1" 
+AR Path="/57B369AA/57D58F38" Ref="D21"  Part="1" 
 F 0 "D21" H 1550 3900 50  0000 R CNN
 F 1 "Green" H 1550 4000 50  0000 R CNN
 F 2 "LEDs:LED_0603" V 1550 4100 50  0001 C CNN
@@ -566,7 +560,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 3800 1350 3700
 $Comp
-L VDD #PWR091
+L power:VDD #PWR091
 U 1 1 57D58F39
 P 1350 3700
 F 0 "#PWR091" H 1350 3550 50  0001 C CNN
@@ -579,7 +573,7 @@ $EndComp
 Wire Wire Line
 	2800 2800 2700 2800
 $Comp
-L VDD #PWR092
+L power:VDD #PWR092
 U 1 1 57D58F3B
 P 2650 6000
 F 0 "#PWR092" H 2650 5850 50  0001 C CNN
@@ -590,9 +584,11 @@ F 3 "" H 2650 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R11
+L Device:R_Small R11
 U 1 1 57D58F3C
 P 2650 6200
+AR Path="/57D58F3C" Ref="R11"  Part="1" 
+AR Path="/57B369AA/57D58F3C" Ref="R11"  Part="1" 
 F 0 "R11" H 2591 6154 50  0000 R CNN
 F 1 "100 K" H 2591 6245 50  0000 R CNN
 F 2 "Resistors_SMD:R_0603" H 2650 6200 50  0001 C CNN
@@ -604,9 +600,11 @@ F 6 "1" H 2650 6200 60  0001 C CNN "MSL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R13
+L Device:R_Small R13
 U 1 1 57D58F3D
 P 2650 6600
+AR Path="/57D58F3D" Ref="R13"  Part="1" 
+AR Path="/57B369AA/57D58F3D" Ref="R13"  Part="1" 
 F 0 "R13" H 2591 6554 50  0000 R CNN
 F 1 "100 K" H 2591 6645 50  0000 R CNN
 F 2 "Resistors_SMD:R_0603" H 2650 6600 50  0001 C CNN
@@ -618,7 +616,7 @@ F 6 "1" H 2650 6600 60  0001 C CNN "MSL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR093
+L power:GND #PWR093
 U 1 1 57D58F3E
 P 2650 6800
 F 0 "#PWR093" H 2650 6550 50  0001 C CNN
@@ -631,7 +629,7 @@ $EndComp
 Wire Wire Line
 	2650 6800 2650 6700
 Wire Wire Line
-	2650 6300 2650 6500
+	2650 6300 2650 6400
 Wire Wire Line
 	2650 6100 2650 6000
 Wire Wire Line
@@ -645,9 +643,11 @@ Wire Wire Line
 	1350 4100 1450 4100
 NoConn ~ 1750 1500
 $Comp
-L CONN_01X01 P5
+L Connector_Generic:Conn_01x01 P5
 U 1 1 57D649B2
 P 4350 6350
+AR Path="/57D649B2" Ref="P5"  Part="1" 
+AR Path="/57B369AA/57D649B2" Ref="P5"  Part="1" 
 F 0 "P5" H 4428 6391 50  0000 L CNN
 F 1 "CONN_01X01" H 4428 6300 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 6350 50  0001 C CNN
@@ -663,7 +663,7 @@ Wire Wire Line
 Text GLabel 3950 6350 0    60   Output ~ 0
 ~RST~
 $Comp
-L DRTR5V0U4LP16 D19
+L featherlight:DRTR5V0U4LP16 D19
 U 1 1 583B725E
 P 2050 2650
 F 0 "D19" V 2372 2650 50  0000 C CNN
@@ -683,7 +683,7 @@ Wire Wire Line
 	1300 2500 1550 2500
 Connection ~ 1300 2800
 $Comp
-L DRTR5V0U4LP16 D23
+L featherlight:DRTR5V0U4LP16 D23
 U 1 1 583AD645
 P 9700 3950
 F 0 "D23" H 9977 3996 50  0000 L CNN
@@ -697,7 +697,7 @@ F 6 "1" H 9700 3950 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR094
+L power:+3.3V #PWR094
 U 1 1 583AD650
 P 9850 3200
 F 0 "#PWR094" H 9850 3050 50  0001 C CNN
@@ -710,9 +710,9 @@ $EndComp
 Wire Wire Line
 	9850 3200 9850 3300
 Wire Wire Line
-	9850 4600 9850 4800
+	9850 4600 9850 4700
 $Comp
-L GND #PWR095
+L power:GND #PWR095
 U 1 1 583AD658
 P 9850 4800
 F 0 "#PWR095" H 9850 4550 50  0001 C CNN
@@ -744,9 +744,11 @@ LL_BUTTON
 Text GLabel 9150 3850 0    60   Input ~ 0
 LR_BUTTON
 $Comp
-L CONN_01X01 P8
+L Connector_Generic:Conn_01x01 P8
 U 1 1 583B5E12
 P 4350 6600
+AR Path="/583B5E12" Ref="P8"  Part="1" 
+AR Path="/57B369AA/583B5E12" Ref="P8"  Part="1" 
 F 0 "P8" H 4428 6641 50  0000 L CNN
 F 1 "CONN_01X01" H 4428 6550 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 6600 50  0001 C CNN
@@ -760,7 +762,7 @@ $EndComp
 Wire Wire Line
 	4150 6600 3950 6600
 $Comp
-L +3.3V #PWR096
+L power:+3.3V #PWR096
 U 1 1 583B60B9
 P 3950 6600
 F 0 "#PWR096" H 3950 6450 50  0001 C CNN
@@ -773,8 +775,7 @@ $EndComp
 Wire Wire Line
 	2800 1100 2800 2800
 Wire Wire Line
-	3200 1100 3900 1100
-Connection ~ 3800 1100
+	3200 1100 3800 1100
 Wire Wire Line
 	3800 1100 3800 3600
 Wire Wire Line
@@ -785,7 +786,7 @@ Text Label 3400 1100 0    60   ~ 0
 VFUSE
 NoConn ~ 1750 2200
 $Comp
-L GND #PWR097
+L power:GND #PWR097
 U 1 1 58766430
 P 1350 1900
 F 0 "#PWR097" H 1350 1650 50  0001 C CNN
@@ -796,7 +797,7 @@ F 3 "" H 1350 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG P1
+L Connector_Specialized:USB_B_Micro P1
 U 1 1 57D58F0F
 P 1450 1300
 AR Path="/57D58F0F" Ref="P1"  Part="1" 
@@ -812,7 +813,7 @@ F 6 "1" H 1400 1200 60  0001 C CNN "MSL"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 1700 1350 1900
+	1350 1700 1350 1800
 Wire Wire Line
 	1350 1800 1450 1800
 Wire Wire Line
@@ -823,17 +824,19 @@ Wire Wire Line
 Wire Wire Line
 	2150 1300 2150 2200
 Wire Wire Line
-	1750 1400 2450 1400
+	1750 1400 2350 1400
 Connection ~ 2350 1400
 Wire Wire Line
-	1750 1300 2450 1300
+	1750 1300 2150 1300
 Connection ~ 2150 1300
 Wire Wire Line
-	1750 1100 2900 1100
+	1750 1100 2800 1100
 $Comp
-L D_Schottky D24
+L Device:D_Schottky D24
 U 1 1 583C13DE
 P 3050 1100
+AR Path="/583C13DE" Ref="D24"  Part="1" 
+AR Path="/57B369AA/583C13DE" Ref="D24"  Part="1" 
 F 0 "D24" H 3050 850 50  0000 L CNN
 F 1 "MBRA210LT3G" H 2700 950 50  0000 L CNN
 F 2 "featherlight:DO-214AC" H 3050 1100 50  0001 C CNN
@@ -845,4 +848,37 @@ F 6 "1" H 3050 1100 60  0001 C CNN "MSL"
 	-1   0    0    1   
 $EndComp
 Connection ~ 2800 1100
+Wire Wire Line
+	5500 1100 5900 1100
+Wire Wire Line
+	7000 1300 7100 1300
+Wire Wire Line
+	4850 1100 5500 1100
+Wire Wire Line
+	4850 1100 4850 1300
+Wire Wire Line
+	3800 4100 4400 4100
+Wire Wire Line
+	3800 4100 3800 4350
+Wire Wire Line
+	4400 4100 4500 4100
+Wire Wire Line
+	2650 6400 2650 6500
+Wire Wire Line
+	1300 2800 1400 2800
+Wire Wire Line
+	9850 4700 9850 4800
+Wire Wire Line
+	1350 1800 1350 1900
+Wire Wire Line
+	2350 1400 2450 1400
+Wire Wire Line
+	2150 1300 2450 1300
+Wire Wire Line
+	2800 1100 2900 1100
+Wire Wire Line
+	3800 1100 4000 1100
+Connection ~ 3800 1100
+Wire Wire Line
+	4300 1100 4850 1100
 $EndSCHEMATC
